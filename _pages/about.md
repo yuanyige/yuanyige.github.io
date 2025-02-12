@@ -114,7 +114,7 @@ To achieve this, I worked on Generalization & Robustness and Alignment & Halluci
 
 
 
-# 🎖 Awards && Honors 
+# 🎖 Awards && Honors  
 <span class='anchor' id='-honors-and-awards'></span>
 
 - _2024_ National Scholarship (Doctoral Students)
