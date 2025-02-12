@@ -21,7 +21,7 @@ My research goal is to build  Trustworthy AI that performs reliably across diver
 
 To achieve this, I worked on Generalization & Robustness and Alignment & Hallucination within domains of graph, vision, and language, for tasks of both discriminative and generative modeling.
 
-# 📝 Selected Publications [FullList](/jekyll-yuanyige/publications.html)
+# 📝 Selected Publications [FullList](/publications.html)
 
 
 
