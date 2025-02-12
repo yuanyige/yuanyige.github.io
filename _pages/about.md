@@ -14,6 +14,7 @@ redirect_from:
 
 # Introduction
 
+<span class='anchor' id='about-me'></span>
 
 I am currently pursuing my Ph.D. at the CAS Key Laboratory of AI Safety, advised by Prof. Xueqi Cheng and Assoc. Prof. Bingbing Xu. I obtained my B.S. degree in Information Security from Xidian University in 2020.
 
@@ -21,9 +22,17 @@ My research goal is to build  Trustworthy AI that performs reliably across diver
 
 To achieve this, I worked on Generalization & Robustness and Alignment & Hallucination within domains of graph, vision, and language, for tasks of both discriminative and generative modeling.
 
+
+# 🔥 News 
+
+<span class='anchor' id='-news'></span>
+
+- _2025.01_: &nbsp;🎉🎉 Our paper <a herf='#'>Personalized Denoising Implicit Feedback for Robust Recommender System</a> is accepted in TheWebConf (WWW) 2025.
+
+
 # 📝 Selected Publications [FullList](/publications.html)
 
-
+<span class='anchor' id='-publications'></span>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='/images/iclr2025-simper-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -105,7 +114,8 @@ To achieve this, I worked on Generalization & Robustness and Alignment & Halluci
 
 
 
-# 🎖 Awards && Honors
+# 🎖 Awards && Honors 
+<span class='anchor' id='-honors-and-awards'></span>
 
 - _2024_ National Scholarship (Doctoral Students)
 - _2024_ First-Class Scholarship, University of Chinese Academy of Sciences
@@ -130,12 +140,15 @@ To achieve this, I worked on Generalization & Robustness and Alignment & Halluci
 
 # 💻 Invited Talks
 
+<span class='anchor' id='-invited-talks'></span>
 - LOGS Webinar, Partial Differential Equation-Driven Generalizable Neural Networks, March 2024 [video]
 - AITime Webinar, TEA: Test-time Energy Adaptation, April 2024
 - WizSci Webinar, PDE+: Enhancing Generalization via PDE with Adaptive Distributional Diffusion, Jan 2024
 
 
 # 👩🏻‍🎓 Academic Services
+
+<span class='anchor' id='-academic-services'></span>
 
 * Conference Reviewers: NeurIPS 2024, ICML 2025, ICLR 2025, AISTATS 2025, KDD 2025, WWW 2025, AAAI 2025, ACL 2025, EMNLP 2024, COLING 2025, ACL Rolling Review, MIDL 2025, IJCNN 2025
 
