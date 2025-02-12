@@ -28,11 +28,11 @@ To achieve this, I worked on Generalization & Robustness and Alignment & Halluci
 <span class='anchor' id='-news'></span>
 
 <!-- - _2025.01_: &nbsp;🎉🎉 Our paper <a herf='#'>Personalized Denoising Implicit Feedback for Robust Recommender System</a> is accepted in TheWebConf (WWW) 2025. -->
-- _2025.01_: &nbsp;🎉🎉 Our paper <a herf='https://arxiv.org/abs/2502.00883'>SimPER: A Minimalist Approach to Preference Alignment without Hyperparameters</a> is accepted in ICLR 2025.
-- _2025.01_: &nbsp;🎉🎉 Our paper <a herf='#'>Direct Imitation Learning: RLHF Secretly Performs Imitation Learning</a> is accepted in ICLR 2025.
+- _2025.01_: &nbsp;🎉🎉 Our paper [SimPER: A Minimalist Approach to Preference Alignment without Hyperparameters](https://arxiv.org/abs/2502.00883) is accepted in ICLR 2025.
+- _2025.01_: &nbsp;🎉🎉 Our paper [Direct Imitation Learning: RLHF Secretly Performs Imitation Learning](https://openreview.net/forum?id=2QdsjiNXgj) is accepted in ICLR 2025.
 
 
-# 📝 Selected Publications [FullList](/publications.html)
+# 📝 Selected Publications [(FullList)](/publications.html)
 
 <span class='anchor' id='-publications'></span>
 
@@ -130,7 +130,7 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 
 
 
-# 📖 Educations
+# 📖 Experiences
 
 - _2020.09 - Present_, **Institute of Computing Technology, Chinese Academy of Seiences**.
   - Ph.D. in Computer Software and Theory

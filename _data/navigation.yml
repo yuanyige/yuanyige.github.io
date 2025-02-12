@@ -12,13 +12,14 @@ main:
   - title: "Awards && Honors "
     url: "/#-honors-and-awards"
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "Experiences"
+    url: "/#-experiences"
 
   - title: "Invited Talks"
     url: "/#-invited-talks"
 
   - title: "Academic Services"
     url: "/#-academic-services"
+
   - title: "CV"
-    url: "/assets/pdf/YigeYuan_Resume_1Page.pdf"
+    url: "/resources/YigeYuan_Resume_1Page.pdf"
