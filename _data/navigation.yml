@@ -2,9 +2,10 @@
 main:
   - title: "About Me"
     url: "/#about-me"
-
-  - title: "CV"
+  - title: "News"
     url: "/#-news"
+  - title: "CV"
+    url: "/assets/pdf/YigeYuan_Resume_1Page.pdf"
 
   - title: "Publications"
     url: "/#-publications"

@@ -25,7 +25,7 @@ To achieve this, I worked on Generalization & Robustness and Alignment & Halluci
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/iclr2025-simper-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='/images/iclr2025-simper-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SimPER: A Minimalist Approach to Preference Alignment without Hyperparameters](https://openreview.net/forum?id=jfwe9qNqRi)
@@ -39,7 +39,7 @@ To achieve this, I worked on Generalization & Robustness and Alignment & Halluci
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/aaai2024-pdeadd-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='/images/aaai2024-pdeadd-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Direct Imitation Learning: RLHF Secretly Performs Imitation Learning](https://openreview.net/forum?id=2QdsjiNXgj)
@@ -52,7 +52,7 @@ To achieve this, I worked on Generalization & Robustness and Alignment & Halluci
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/aaai2024-pdeadd-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='/images/aaai2024-pdeadd-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [TEA: Test-time Energy Adaptation](https://arxiv.org/abs/2311.14402)
@@ -65,7 +65,7 @@ To achieve this, I worked on Generalization & Robustness and Alignment & Halluci
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/aaai2024-pdeadd-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='/images/aaai2024-pdeadd-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [ PDE+: Enhancing Generalization via PDE with Adaptive Distributional Diffusion](https://arxiv.org/abs/2305.15835)
@@ -79,7 +79,7 @@ To achieve this, I worked on Generalization & Robustness and Alignment & Halluci
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/aaai2024-pdeadd-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='/images/aaai2024-pdeadd-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Towards Generalizable Graph Contrastive Learning: An Information Theory Perspective](https://arxiv.org/abs/2211.10929)
