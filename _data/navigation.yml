@@ -4,8 +4,7 @@ main:
     url: "/#about-me"
   - title: "News"
     url: "/#-news"
-  - title: "CV"
-    url: "/assets/pdf/YigeYuan_Resume_1Page.pdf"
+
 
   - title: "Publications"
     url: "/#-publications"
@@ -21,3 +20,5 @@ main:
 
   - title: "Academic Services"
     url: "/#-academic-services"
+  - title: "CV"
+    url: "/assets/pdf/YigeYuan_Resume_1Page.pdf"
