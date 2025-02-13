@@ -12,7 +12,7 @@ redirect_from:
 # 📝 Selected Publications 
 
 
-<h3> 2025 </h3>
+<h1> 2025 </h1>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='/images/iclr2025-simper-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -26,8 +26,8 @@ redirect_from:
 ([**Paper**](https://openreview.net/forum?id=jfwe9qNqRi))([**Code**](#))([**Slides**](#))([**Poster**](#))
 </div>
 </div>
-
-<h3> 2024 </h3>
+<p class="paper-lines"> </p>
+<h1> 2024 </h1>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='/images/aaai2024-pdeadd-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -82,7 +82,7 @@ redirect_from:
 </div>
 
 
-
+<p class="paper-lines"> </p>
 
 
 
