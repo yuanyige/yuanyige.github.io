@@ -32,7 +32,7 @@ To achieve this, I worked on Generalization & Robustness and Alignment & Halluci
 - _2025.01_: &nbsp;🎉🎉 Our paper [Direct Imitation Learning: RLHF Secretly Performs Imitation Learning](https://openreview.net/forum?id=2QdsjiNXgj) is accepted in ICLR 2025.
 
 
-<<<<<<< HEAD
+
 # 📝 Selected Publications  <a href="/publications.html" style="font-size:16px"> [FullList]
 
 
