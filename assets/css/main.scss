@@ -50,6 +50,7 @@
     color: #828282;
     font-size: 3rem !important;
     text-align: right;
+    margin-bottom:-3rem;
 }
 .paper-box {
     display: flex;
@@ -82,7 +83,7 @@
         .paper-box-image{
             justify-content: left;
             min-width: 200px;
-            max-width: 40%;
+            max-width: 30%;
             order: 1;
         }
         
