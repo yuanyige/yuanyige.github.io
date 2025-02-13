@@ -84,7 +84,7 @@ Teng Xiao, Mingxiao Li, **Yige Yuan**, Huaisheng Zhu, Chao Cui, Vasant G Honavar
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGIR 2024</div><img src='/resources/sigir2024-nap-pic.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGIR 2024</div><img src='/resources/sigir2024-nap-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Negative as Positive: Enhancing Out-of-distribution Generalization for Graph Contrastive Learning](https://dl.acm.org/doi/abs/10.1145/3626772.3657927)
