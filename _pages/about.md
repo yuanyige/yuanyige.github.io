@@ -33,7 +33,7 @@ To achieve this, I worked on Generalization & Robustness and Alignment & Halluci
 
 
 <<<<<<< HEAD
-# 📝 Selected Publications  <a href="/publications.html" style="font-size:20px"> [FullList]</h5>
+# 📝 Selected Publications  <a href="/publications.html" style="font-size:16px"> [FullList]
 
 
 <span class='anchor' id='-publications'></span>
