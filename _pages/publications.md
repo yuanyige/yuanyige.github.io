@@ -12,7 +12,7 @@ redirect_from:
 # 📝 Selected Publications 
 
 
-<p  style="font-size:20px"> 2025 </p>
+<p  class="paper-pub-title-year"> 2025 </p>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='/images/iclr2025-simper-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -29,7 +29,7 @@ redirect_from:
 
 <p class="paper-lines"> </p>
 
-<p style="font-size:20px"> 2024 </p>
+<p class="paper-pub-title-year"> 2024 </p>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='/images/aaai2024-pdeadd-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
