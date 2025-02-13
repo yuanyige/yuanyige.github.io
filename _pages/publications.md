@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-# 📝 Selected Publications [FullList](/jekyll-yuanyige/pub.html)
+# 📝 Selected Publications 
 
 
 
