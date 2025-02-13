@@ -28,7 +28,7 @@ To achieve this, I worked on Generalization & Robustness and Alignment & Halluci
 
 - _2025.01_: &nbsp;🎉🎉 Our paper [SimPER: A Minimalist Approach to Preference Alignment without Hyperparameters](https://openreview.net/forum?id=jfwe9qNqRi) is accepted in ICLR 2025.
 - _2025.01_: &nbsp;🎉🎉 Our paper [Direct Imitation Learning: RLHF Secretly Performs Imitation Learning](https://openreview.net/forum?id=2QdsjiNXgj) is accepted in ICLR 2025.
-- _2024.11_: &nbsp;🎉🎉 I received the National Scholarship in 2024.
+- _2024.11_: &nbsp;🎖 I received the National Scholarship in 2024.
 - _2024.09_: &nbsp;🎉🎉 Our paper [Cal-DPO: Calibrated Direct Preference Optimization for Language Model Alignment](https://openreview.net/forum?id=57OQXxbTbY&noteId=ellZ40SC5c) is accepted in NeurIPS 2024.
 - _2024.09_: &nbsp;🎉🎉 Our paper [How to Leverage Demonstration Data in Alignment for Large Language Model? A Self-Imitation Learning Perspective](https://openreview.net/forum?id=QHmEtCEGFO) is accepted in EMNLP 2024.
 
@@ -161,7 +161,7 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 
 <span class='anchor' id='-academic-services'></span>
 
-* **Conference Reviewers**: NeurIPS 2024, ICML 2025, ICLR 2025, AISTATS 2025, KDD 2025, WWW 2025, AAAI 2025, ACL 2025, EMNLP 2024, COLING 2025, ACL Rolling Review, MIDL 2025, IJCNN 2025
+* **Conference Reviewers**: NeurIPS 2024, ICML 2025, ICLR 2025, AISTATS 2025, KDD 2025, WWW 2025, AAAI 2025, IJCAI 2025, ACL 2025, EMNLP 2024, COLING 2025, ACL Rolling Review, MIDL 2025, IJCNN 2025
 
 * **Journal Reviewers**: IEEE Transactions on Knowledge and Data Engineering (TKDE), Applied Intelligence (APIN)
 
