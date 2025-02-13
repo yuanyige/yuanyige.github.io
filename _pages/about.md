@@ -30,7 +30,7 @@ To achieve this, I worked on Generalization & Robustness and Alignment & Halluci
 - _2025.01_: &nbsp;🎉🎉 Our paper <a herf='#'>Personalized Denoising Implicit Feedback for Robust Recommender System</a> is accepted in TheWebConf (WWW) 2025.
 
 
-# 📝 Selected Publications [FullList](/publications.html)
+# 📝 Selected Publications <h5> <a href="/publications.html"> [FullList]</a></h5>
 
 <span class='anchor' id='-publications'></span>
 

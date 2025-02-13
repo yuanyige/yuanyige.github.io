@@ -21,7 +21,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Yige Yuan (袁一歌)"
+  name             : "Yige Yuan "
+  china_name    :  "(袁一歌)"
   avatar           : "/images/yuanyige-512x512.png"
   bio              : "Ph.D. Candidate"
   location         : "Beijing, China"
