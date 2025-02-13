@@ -53,7 +53,7 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024</div><img src='/resources/emnlp2024-gsil-pic' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024</div><img src='/resources/emnlp2024-gsil-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [How to Leverage Demonstration Data in Alignment for Large Language Model? A Self-Imitation Learning Perspective](https://arxiv.org/abs/2410.10093)
@@ -84,7 +84,7 @@ Teng Xiao, Mingxiao Li, **Yige Yuan**, Huaisheng Zhu, Chao Cui, Vasant G Honavar
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGIR 2024</div><img src='/resources/sigir2024-nap-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGIR 2024</div><img src='/resources/sigir2024-nap-pic.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Negative as Positive: Enhancing Out-of-distribution Generalization for Graph Contrastive Learning](https://dl.acm.org/doi/abs/10.1145/3626772.3657927)
