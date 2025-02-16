@@ -25,7 +25,7 @@ To achieve this, I worked on Generalization & Robustness and Alignment & Halluci
 # 🔥 News 
 
 <span class='anchor' id='-news'></span>
-- _2025.02_: &nbsp;🏆 Our team won first place in the [AgentSociety Challenge @ WWW 2025](https://tsinghua-fib-lab.github.io/AgentSocietyChallenge/pages/winners.html).
+- _2025.02_: &nbsp;🥇 Our team won first place in the [AgentSociety Challenge @ WWW 2025](https://tsinghua-fib-lab.github.io/AgentSocietyChallenge/pages/winners.html).
 - _2025.01_: &nbsp;🎉🎉 Our paper [SimPER: A Minimalist Approach to Preference Alignment without Hyperparameters](https://openreview.net/forum?id=jfwe9qNqRi) is accepted in ICLR 2025.
 - _2025.01_: &nbsp;🎉🎉 Our paper [Direct Imitation Learning: RLHF Secretly Performs Imitation Learning](https://openreview.net/forum?id=2QdsjiNXgj) is accepted in ICLR 2025.
 - _2024.11_: &nbsp;🎖 I received the National Scholarship in 2024.
@@ -121,20 +121,16 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 
 
 
-
-# 🎖 Awards  
+# 🎖 Awards && Honors
 <span class='anchor' id='-honors-and-awards'></span>
-- **Scholarship**
-  - _2024_ National Scholarship (Doctoral Students)
-  - _2024_ First-Class Scholarship, University of Chinese Academy of Sciences
-  - _2023_ Presidential Scholarship, Institute of Computing Technology
-  - _2022_ First-Class Scholarship, University of Chinese Academy of Sciences
-  - _2022_ Outstanding Student Award, University of Chinese Academy of Sciences
-
-- **Competition**
-  - _2025_ First place, The AgentSociety Challenge @ WWW 2025
-  - _2019_ First Prize, 12th National College Students Information Security Contest
-  - _2017_ First Prize, 15th National Science and Technology Academic Competition of Challenge Cup
+- _2025_ First place, AgentSociety Challenge @ WWW 2025
+- _2024_ National Scholarship (Doctoral Students)
+- _2024_ First-Class Scholarship, University of Chinese Academy of Sciences
+- _2023_ Presidential Scholarship, Institute of Computing Technology
+- _2022_ First-Class Scholarship, University of Chinese Academy of Sciences
+- _2022_ Outstanding Student Award, University of Chinese Academy of Sciences
+- _2019_ First Prize, 12th National College Students Information Security Contest
+- _2017_ First Prize, 15th National Science and Technology Academic Competition of Challenge Cup
 
 
 # 🧳 Experiences
