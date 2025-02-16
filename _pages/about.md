@@ -25,7 +25,7 @@ To achieve this, I worked on Generalization & Robustness and Alignment & Halluci
 # 🔥 News 
 
 <span class='anchor' id='-news'></span>
-
+- _2025.02_: &nbsp;🏆 Our team won first place in the [AgentSociety Challenge @ WWW 2025] (https://tsinghua-fib-lab.github.io/AgentSocietyChallenge/pages/winners.html).
 - _2025.01_: &nbsp;🎉🎉 Our paper [SimPER: A Minimalist Approach to Preference Alignment without Hyperparameters](https://openreview.net/forum?id=jfwe9qNqRi) is accepted in ICLR 2025.
 - _2025.01_: &nbsp;🎉🎉 Our paper [Direct Imitation Learning: RLHF Secretly Performs Imitation Learning](https://openreview.net/forum?id=2QdsjiNXgj) is accepted in ICLR 2025.
 - _2024.11_: &nbsp;🎖 I received the National Scholarship in 2024.
@@ -122,27 +122,30 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 
 
 
-# 🎖 Awards && Honors  
+# 🎖 Awards  
 <span class='anchor' id='-honors-and-awards'></span>
+- Scholarship
+  - _2024_ National Scholarship (Doctoral Students)
+  - _2024_ First-Class Scholarship, University of Chinese Academy of Sciences
+  - _2023_ Presidential Scholarship, Institute of Computing Technology
+  - _2022_ First-Class Scholarship, University of Chinese Academy of Sciences
+  - _2022_ Outstanding Student Award, University of Chinese Academy of Sciences
 
-- _2024_ National Scholarship (Doctoral Students)
-- _2024_ First-Class Scholarship, University of Chinese Academy of Sciences
-- _2023_ Presidential Scholarship, Institute of Computing Technology
-- _2022_ First-Class Scholarship, University of Chinese Academy of Sciences
-- _2022_ Outstanding Student Award, University of Chinese Academy of Sciences
-- _2019_ First Prize, 12th National College Students Information Security Contest
-- _2017_ First Prize, 15th National Science and Technology Academic Competition of Challenge Cup
+- Competition
+  - _2025_ First place, The AgentSociety Challenge @ WWW 2025
+  - _2019_ First Prize, 12th National College Students Information Security Contest
+  - _2017_ First Prize, 15th National Science and Technology Academic Competition of Challenge Cup
 
 
 # 🧳 Experiences
 
 - _2025.01 - Present_, **Tongyi Lab, Alibaba Group**.
   - Research Internship in Large Language Models and Multi-Agent Systems
-  - Advisor: Shuchang Tao and Yunpeng Zhai
+  - Advisor: Senior Algorithm Engineer Shuchang Tao and Yunpeng Zhai
 
 - _2020.09 - Present_, **Institute of Computing Technology, Chinese Academy of Seiences**.
   - Ph.D. in Computer Software and Theory
-  - Advisor: Professor [Xueqi Cheng](https://scholar.google.com/citations?user=hY8aLqAAAAAJ) and [Bingbing Xu](https://scholar.google.com/citations?user=PSx2drgAAAAJ)
+  - Advisor: Professor [Xueqi Cheng](https://scholar.google.com/citations?user=hY8aLqAAAAAJ) and Associate Professor [Bingbing Xu](https://scholar.google.com/citations?user=PSx2drgAAAAJ)
 
 - _2016.09 - 2020.06_, **Xidian University**.
   - Department of Network and Information Security
@@ -164,5 +167,8 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 * **Conference Reviewers**: NeurIPS 2024, ICML 2025, ICLR 2025, AISTATS 2025, KDD 2025, WWW 2025, AAAI 2025, IJCAI 2025, ACL 2025, EMNLP 2024, COLING 2025, ACL Rolling Review, MIDL 2025, IJCNN 2025
 
 * **Journal Reviewers**: IEEE Transactions on Knowledge and Data Engineering (TKDE), Applied Intelligence (APIN)
+
+
+
 
 
