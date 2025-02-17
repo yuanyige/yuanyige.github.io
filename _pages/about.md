@@ -160,7 +160,7 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 
 <span class='anchor' id='-academic-services'></span>
 
-* **Conference Reviewers**: NeurIPS (2024,2025), ICML 2025, ICLR 2025, AISTATS 2025, KDD 2025, WWW 2025, AAAI 2025, IJCAI 2025, ACL 2025, EMNLP 2024, COLING 2025, ACL Rolling Review, MIDL 2025, IJCNN 2025
+* **Conference Reviewers**: NeurIPS (2024, 2025), ICML 2025, ICLR 2025, AISTATS 2025, KDD 2025, WWW 2025, AAAI 2025, IJCAI 2025, ACL 2025, EMNLP 2024, COLING 2025, ACL Rolling Review, MIDL 2025, IJCNN 2025
 
 * **Journal Reviewers**: IEEE Transactions on Knowledge and Data Engineering (TKDE), Applied Intelligence (APIN)
 
