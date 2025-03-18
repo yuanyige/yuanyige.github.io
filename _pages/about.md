@@ -151,6 +151,7 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 # 💻 Invited Talks
 
 <span class='anchor' id='-invited-talks'></span>
+- AITime Youth PhD Talk, On a Connection Between Imitation Learning and RLHF, March 2025 [\[video\]](https://www.bilibili.com/video/BV11N91Y1EQw)
 - LOGS Webinar, Partial Differential Equation-Driven Generalizable Neural Networks, March 2024 [\[video\]](https://www.bilibili.com/video/BV1QK421v7e6)
 - AITime Webinar, TEA: Test-time Energy Adaptation, April 2024
 - WizSci Webinar, PDE+: Enhancing Generalization via PDE with Adaptive Distributional Diffusion, Jan 2024
