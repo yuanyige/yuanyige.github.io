@@ -25,9 +25,10 @@ To achieve this, I worked on Generalization & Robustness and Alignment & Halluci
 # 🔥 News 
 
 <span class='anchor' id='-news'></span>
+- _2025.03_: &nbsp;🥳 Our paper, SimPER (https://arxiv.org/abs/2502.00883), has been adopted by [LG AI Research](https://www.lgresearch.ai) as the core training algorithm for their [EXAONE Deep](https://arxiv.org/abs/2503.12524) series LLMs, helping their 32B model surpass the performance of DeepSeek R1 (671B)!
 - _2025.02_: &nbsp;🥇 Our team won first place in the [AgentSociety Challenge @ WWW 2025](https://tsinghua-fib-lab.github.io/AgentSocietyChallenge).
 - _2025.01_: &nbsp;🎉🎉 Our paper [SimPER: A Minimalist Approach to Preference Alignment without Hyperparameters](https://openreview.net/forum?id=jfwe9qNqRi) is accepted in ICLR 2025.
-- _2025.01_: &nbsp;🎉🎉 Our paper [Direct Imitation Learning: RLHF Secretly Performs Imitation Learning](https://openreview.net/forum?id=2QdsjiNXgj) is accepted in ICLR 2025.
+- _2025.01_: &nbsp;🎉🎉 Our paper [On a Connection Between Imitation Learning and RLHF](https://openreview.net/forum?id=2QdsjiNXgj) is accepted in ICLR 2025.
 - _2024.11_: &nbsp;🎖 I received the National Scholarship in 2024.
 - _2024.09_: &nbsp;🎉🎉 Our paper [Cal-DPO: Calibrated Direct Preference Optimization for Language Model Alignment](https://openreview.net/forum?id=57OQXxbTbY&noteId=ellZ40SC5c) is accepted in NeurIPS 2024.
 - _2024.09_: &nbsp;🎉🎉 Our paper [How to Leverage Demonstration Data in Alignment for Large Language Model? A Self-Imitation Learning Perspective](https://openreview.net/forum?id=QHmEtCEGFO) is accepted in EMNLP 2024.
@@ -57,7 +58,7 @@ Teng Xiao*, **Yige Yuan\***, Zhengyu Chen, Mingxiao Li, Shangsong Liang, Zhaochu
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='/resources/iclr2025-dil-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Direct Imitation Learning: RLHF Secretly Performs Imitation Learning](https://openreview.net/forum?id=2QdsjiNXgj)
+[On a Connection Between Imitation Learning and RLHF](https://openreview.net/forum?id=2QdsjiNXgj)
 
 Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 
@@ -151,6 +152,7 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 # 💻 Invited Talks
 
 <span class='anchor' id='-invited-talks'></span>
+- NICE Webinar, On a Connection Between Imitation Learning and RLHF, March 2025 [\[video\]](https://www.bilibili.com/video/BV1LwXsYPEsV)
 - AITime Youth PhD Talk, On a Connection Between Imitation Learning and RLHF, March 2025 [\[video\]](https://www.bilibili.com/video/BV11N91Y1EQw)
 - LOGS Webinar, Partial Differential Equation-Driven Generalizable Neural Networks, March 2024 [\[video\]](https://www.bilibili.com/video/BV1QK421v7e6)
 - AITime Webinar, TEA: Test-time Energy Adaptation, April 2024
