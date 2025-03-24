@@ -25,7 +25,7 @@ To achieve this, I worked on Generalization & Robustness and Alignment & Halluci
 # 🔥 News 
 
 <span class='anchor' id='-news'></span>
-- _2025.03_: &nbsp;🥳 Our paper, SimPER (https://arxiv.org/abs/2502.00883), has been adopted by [LG AI Research](https://www.lgresearch.ai) as the core training algorithm for their [EXAONE Deep](https://arxiv.org/abs/2503.12524) series LLMs, helping their 32B model surpass the performance of DeepSeek R1 (671B)!
+- _2025.03_: &nbsp;🥳 Our paper, [SimPER](https://arxiv.org/abs/2502.00883), has been adopted by [LG AI Research](https://www.lgresearch.ai) as the core training algorithm for their [EXAONE Deep](https://arxiv.org/abs/2503.12524) series LLMs, helping their 32B model surpass the performance of DeepSeek R1 (671B)!
 - _2025.02_: &nbsp;🥇 Our team won first place in the [AgentSociety Challenge @ WWW 2025](https://tsinghua-fib-lab.github.io/AgentSocietyChallenge).
 - _2025.01_: &nbsp;🎉🎉 Our paper [SimPER: A Minimalist Approach to Preference Alignment without Hyperparameters](https://openreview.net/forum?id=jfwe9qNqRi) is accepted in ICLR 2025.
 - _2025.01_: &nbsp;🎉🎉 Our paper [On a Connection Between Imitation Learning and RLHF](https://openreview.net/forum?id=2QdsjiNXgj) is accepted in ICLR 2025.
