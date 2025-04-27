@@ -9,7 +9,59 @@ redirect_from:
 ---
 
 
+
 <div  class="paper-pub-title-year"> 2025 </div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGIR 2025</div><img src='/resources/factcal-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Fact-Level Confidence Calibration and Self-Correction](https://arxiv.org/abs/2411.13343)
+
+**Yige Yuan**, Bingbing Xu, Hexiang Tan, Fei Sun, Teng Xiao, Wei Li, Huawei Shen, Xueqi Cheng
+
+- International ACM Conference on Research and Development in Information Retrieval (SIGIR 2025)
+- Padova, Italy
+- Short Paper
+
+([**Paper**](https://arxiv.org/pdf/2411.13343))([**Code**](https://github.com/yuanyige/fact-calibration))([**Slides**](#))([**Poster**](#))
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGIR 2025</div><img src='/resources/factcal-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[InfoNCE is a Free Lunch for Semantically guided Graph Contrastive Learning](#)
+
+Zixu Wang, Bingbing Xu, **Yige Yuan**, Huawei Shen, Xueqi Cheng
+
+- International ACM Conference on Research and Development in Information Retrieval (SIGIR 2025)
+- Padova, Italy
+- Full Paper
+
+([**Paper**](#))([**Code**](#))([**Slides**](#))([**Poster**](#))
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='/resources/factcal-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MIGE: A Unified Framework for Multimodal Instruction-Based Image Generation and Editing](https://arxiv.org/abs/2502.21291)
+
+Xueyun Tian, Wei Li, Bingbing Xu, **Yige Yuan**, Yuanzhuo Wang, Huawei Shen
+
+- arXiv preprint arXiv:2502.21291
+
+([**Paper**](#))([**Code**](#))([**Slides**](#))([**Poster**](#))
+</div>
+</div>
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='/resources/iclr2025-simper-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -47,23 +99,6 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 ---
 
 <div class="paper-pub-title-year"> 2024 </div>
-
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='/resources/factcal-pic.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Fact-Level Confidence Calibration and Self-Correction](https://arxiv.org/abs/2411.13343)
-
-**Yige Yuan**, Bingbing Xu, Hexiang Tan, Fei Sun, Teng Xiao, Wei Li, Huawei Shen, Xueqi Cheng
-
-- arXiv preprint arXiv:2411.13343
-
-([**Paper**](https://arxiv.org/pdf/2411.13343))([**Code**](https://github.com/yuanyige/fact-calibration))([**Slides**](#))([**Poster**](#))
-</div>
-</div>
-
-
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='/resources/neurips2024-caldpo-pic.jpg' alt="sym" width="100%"></div></div>

@@ -16,15 +16,22 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently pursuing my Ph.D. at the CAS Key Laboratory of AI Safety, advised by Prof. Xueqi Cheng and Assoc. Prof. Bingbing Xu. I obtained my B.S. degree in Information Security from Xidian University in 2020.
+I am currently pursuing my Ph.D. at the State Key Laboratory of AI Safety, advised by Prof. Xueqi Cheng and Assoc. Prof. Bingbing Xu.
 
-My research goal is to build  Trustworthy AI that performs reliably across diverse scenarios.
-To achieve this, I worked on Generalization & Robustness and Alignment & Hallucination within domains of graph, vision, and language, for tasks of both discriminative and generative modeling.
+My research goal is to build Trustworthy AI that performs reliably across diverse scenarios.
+To achieve this, I worked on generalization, alignment and reasoning/planning across the domains of graph, vision, and language. My research includes:
+
+- **Machine Learning Generalization**: To make models generalize stably under domain shifts, noises, or perturbations. 
+
+- **Large Language Model Alignment**: To align large language models with human values and safety requirements.
+
+- **AI System Reasoning and Planning**: To enhance AI's logical reasoning and strategic planning in complex environments.
 
 
 # 🔥 News 
 
 <span class='anchor' id='-news'></span>
+- _2025.04_: &nbsp;🎉🎉 Two papers are accepted in SIGIR 2025.
 - _2025.03_: &nbsp;🥳 Our paper, [SimPER](https://arxiv.org/abs/2502.00883), has been adopted by [LG AI Research](https://www.lgresearch.ai) as the core training algorithm for their [EXAONE Deep](https://arxiv.org/abs/2503.12524) series LLMs, helping their 32B model surpass the performance of DeepSeek R1 (671B)!
 - _2025.02_: &nbsp;🥇 Our team won first place in the [AgentSociety Challenge @ WWW 2025](https://tsinghua-fib-lab.github.io/AgentSocietyChallenge).
 - _2025.01_: &nbsp;🎉🎉 Our paper [SimPER: A Minimalist Approach to Preference Alignment without Hyperparameters](https://openreview.net/forum?id=jfwe9qNqRi) is accepted in ICLR 2025.
@@ -163,9 +170,9 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 
 <span class='anchor' id='-academic-services'></span>
 
-* **Conference Reviewers**: NeurIPS (2024, 2025), ICML 2025, ICLR 2025, AISTATS 2025, KDD 2025, WWW 2025, AAAI 2025, IJCAI 2025, ACL 2025, EMNLP 2024, COLING 2025, ACL Rolling Review, MIDL 2025, IJCNN 2025
+* **Conference Reviewers**: NeurIPS (2024, 2025), ICML 2025, ICLR 2025, AISTATS 2025, KDD 2025, WWW 2025, ACMMM 2025, AAAI 2025, IJCAI 2025, ACL 2025, EMNLP 2024, COLING 2025, ACL Rolling Review, MIDL 2025, IJCNN 2025
 
-* **Journal Reviewers**: IEEE Transactions on Knowledge and Data Engineering (TKDE), Applied Intelligence (APIN)
+* **Journal Reviewers**: IEEE Transactions on Knowledge and Data Engineering (TKDE), Applied Intelligence (APIN), CAAI Transactions on Intelligence Technology
 
 
 
