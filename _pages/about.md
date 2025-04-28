@@ -46,6 +46,19 @@ To achieve this, I worked on generalization, alignment and reasoning/planning ac
 <span class='anchor' id='-publications'></span>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025 Bi-Align</div><img src='/resources/sea-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Inference-time Alignment in Continuous Space](https://openreview.net/pdf?id=9teQltJgBo)
+
+**Yige Yuan\***, Teng Xiao*, Yunfan Li, Bingbing Xu, Shuchang Tao, Yunqi Qiu, Huawei Shen, Xueqi Cheng
+
+([**Paper**](https://openreview.net/pdf?id=9teQltJgBo))([**Code**](#))([**Slides**](#))([**Poster**](#))
+</div>
+</div>
+
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='/resources/iclr2025-simper-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
