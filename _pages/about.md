@@ -51,7 +51,7 @@ To achieve this, I worked on generalization, alignment and reasoning/planning ac
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='/resources/w2sr-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Incentivizing Reasoning from Weak Supervision](https://arxiv.org/abs/2505.20072)
+[Incentivizing Strong Reasoning from Weak Supervision](https://arxiv.org/abs/2505.20072)
 
 **Yige Yuan\***, Teng Xiao*, Shuchang Tao, Xue Wang, Jinyang Gao, Bolin Ding, Bingbing Xu
 
