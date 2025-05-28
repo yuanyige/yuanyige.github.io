@@ -12,6 +12,37 @@ redirect_from:
 <div  class="paper-pub-title-year"> 2025 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='/resources/w2sr-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Incentivizing Strong Reasoning Capacity from Weak Supervision](https://arxiv.org/abs/2505.20072)
+
+**Yige Yuan\***, Teng Xiao*, Shuchang Tao, Xue Wang, Jinyang Gao, Bolin Ding, Bingbing Xu
+
+- arXiv preprint arXiv:2505.20072 
+
+([**Paper**](https://arxiv.org/pdf/2505.20072))([**Code**](https://github.com/yuanyige/w2sr))([**Slides**](#))([**Poster**](#))
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025</div><img src='/resources/sprm-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Score Consistency Meets Preference Alignment: Dual-Consistency for Partial Reward Modeling]()
+
+Bin Xie, Bingbing Xu, **Yige Yuan**, Shengmao Zhu, Huawei Shen 
+
+- The 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)
+- Vienna, Austria
+- Main Paper
+
+([**Paper**]())([**Code**]())([**Slides**](#))([**Poster**](#))
+</div>
+</div>
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025 Bi-Align</div><img src='/resources/sea-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -24,7 +55,7 @@ redirect_from:
 - Singapore EXPO
 - Bi-Align Workshop
 
-([**Paper**](https://openreview.net/pdf?id=9teQltJgBo))([**Code**](#))([**Slides**](#))([**Poster**](#))
+([**Paper**](https://openreview.net/pdf?id=9teQltJgBo))([**Code**](https://github.com/yuanyige/sea))([**Slides**](#))([**Poster**](#))
 </div>
 </div>
 
@@ -34,7 +65,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGIR 2025</div><img src='/resources/factcal-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Fact-Level Confidence Calibration and Self-Correction](https://arxiv.org/abs/2411.13343)
+[Fact-Level Calibration and Correction for Long-Form Generations](https://arxiv.org/abs/2411.13343)
 
 **Yige Yuan**, Bingbing Xu, Hexiang Tan, Fei Sun, Teng Xiao, Wei Li, Huawei Shen, Xueqi Cheng
 
@@ -74,7 +105,24 @@ Xueyun Tian, Wei Li, Bingbing Xu, **Yige Yuan**, Yuanzhuo Wang, Huawei Shen
 
 - arXiv preprint arXiv:2502.21291
 
-([**Paper**](#))([**Code**](#))([**Slides**](#))([**Poster**](#))
+([**Paper**](https://arxiv.org/pdf/2502.21291))([**Code**](#))([**Slides**](#))([**Poster**](#))
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2025</div><img src='/resources/mige-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Unveiling the Potential of LLMs in Simulated Society: A Knowledge-Driven LLM Agent Framework for User Modeling](https://dl.acm.org/doi/pdf/10.1145/3701716.3719232)
+
+Shengmao Zhu, Bingbing Xu, **Yige Yuan**, Bin Xie, Yunfan Li, Huawei Shen
+
+- International World Wide Web Conference (WWW 2025)
+- Sydney, Austria
+- Companion Paper
+
+([**Paper**](https://dl.acm.org/doi/pdf/10.1145/3701716.3719232))
 </div>
 </div>
 
@@ -91,7 +139,7 @@ Teng Xiao*, **Yige Yuan\***, Zhengyu Chen, Mingxiao Li, Shangsong Liang, Zhaochu
 - Singapore EXPO
 - Main Track
 
-([**Paper**](https://arxiv.org/pdf/2502.00883))([**Code**](https://github.com/tengxiao1/SimPER))([**Slides**](#))([**Poster**](#))
+([**Paper**](https://arxiv.org/pdf/2502.00883))([**Code**](https://github.com/tengxiao1/SimPER))([**Slides**](#))([**Poster**](/resources/iclr2025-simper-poster.pdf))
 </div>
 </div>
 
@@ -108,7 +156,7 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 - Singapore EXPO
 - Main Track
 
-([**Paper**](https://openreview.net/forum?id=2QdsjiNXgj))([**Code**](#))([**Slides**](#))([**Poster**](#))
+([**Paper**](https://openreview.net/forum?id=2QdsjiNXgj))([**Code**](#))([**Slides**]())([**Poster**](/resources/iclr2025-dil-poster.pdf))
 </div>
 </div>
 

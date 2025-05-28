@@ -31,6 +31,7 @@ To achieve this, I worked on generalization, alignment and reasoning/planning ac
 # 🔥 News 
 
 <span class='anchor' id='-news'></span>
+- _2025.05_: &nbsp;🎉🎉 One papers are accepted in ACL 2025.
 - _2025.04_: &nbsp;🎉🎉 Two papers are accepted in SIGIR 2025.
 - _2025.03_: &nbsp;🥳 Our paper, [SimPER](https://arxiv.org/abs/2502.00883), has been adopted by [LG AI Research](https://www.lgresearch.ai) as the core training algorithm for their [EXAONE Deep](https://arxiv.org/abs/2503.12524) series LLMs, helping their 32B model surpass the performance of DeepSeek R1 (671B)!
 - _2025.02_: &nbsp;🥇 Our team won first place in the [AgentSociety Challenge @ WWW 2025](https://tsinghua-fib-lab.github.io/AgentSocietyChallenge).
@@ -46,6 +47,22 @@ To achieve this, I worked on generalization, alignment and reasoning/planning ac
 <span class='anchor' id='-publications'></span>
 
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='/resources/w2sr-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Incentivizing Strong Reasoning Capacity from Weak Supervision](https://arxiv.org/abs/2505.20072)
+
+**Yige Yuan\***, Teng Xiao*, Shuchang Tao, Xue Wang, Jinyang Gao, Bolin Ding, Bingbing Xu
+
+<!-- - arXiv preprint arXiv:2505.20072  -->
+
+([**Paper**](https://arxiv.org/pdf/2505.20072))([**Code**](https://github.com/yuanyige/w2sr))([**Slides**](#))([**Poster**](#))
+</div>
+</div>
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025 Bi-Align</div><img src='/resources/sea-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -53,7 +70,7 @@ To achieve this, I worked on generalization, alignment and reasoning/planning ac
 
 **Yige Yuan\***, Teng Xiao*, Yunfan Li, Bingbing Xu, Shuchang Tao, Yunqi Qiu, Huawei Shen, Xueqi Cheng
 
-([**Paper**](https://openreview.net/pdf?id=9teQltJgBo))([**Code**](#))([**Slides**](#))([**Poster**](#))
+([**Paper**](https://openreview.net/pdf?id=9teQltJgBo))([**Code**](https://github.com/yuanyige/sea))([**Slides**](#))([**Poster**](#))
 </div>
 </div>
 
