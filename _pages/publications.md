@@ -111,7 +111,7 @@ Xueyun Tian, Wei Li, Bingbing Xu, **Yige Yuan**, Yuanzhuo Wang, Huawei Shen
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2025</div><img src='/resources/mige-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2025</div><img src='/resources/asc-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Unveiling the Potential of LLMs in Simulated Society: A Knowledge-Driven LLM Agent Framework for User Modeling](https://dl.acm.org/doi/pdf/10.1145/3701716.3719232)
@@ -156,7 +156,7 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 - Singapore EXPO
 - Main Track
 
-([**Paper**](https://openreview.net/forum?id=2QdsjiNXgj))([**Code**](#))([**Slides**]())([**Poster**](/resources/iclr2025-dil-poster.pdf))
+([**Paper**](https://openreview.net/forum?id=2QdsjiNXgj))([**Code**](https://github.com/tengxiao1/DIL))([**Slides**]())([**Poster**](/resources/iclr2025-dil-poster.pdf))
 </div>
 </div>
 

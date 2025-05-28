@@ -55,7 +55,7 @@ To achieve this, I worked on generalization, alignment and reasoning/planning ac
 
 **Yige Yuan\***, Teng Xiao*, Shuchang Tao, Xue Wang, Jinyang Gao, Bolin Ding, Bingbing Xu
 
-<!-- - arXiv preprint arXiv:2505.20072  -->
+- We study the problem of incentivizing reasoning of LLMs from weak supervision, and find that weak reasoner teachers—4.7× smaller and 31.5% less performant than the student—can boost student reasoning by 56.25% without expert supervision or costly RL.
 
 ([**Paper**](https://arxiv.org/pdf/2505.20072))([**Code**](https://github.com/yuanyige/w2sr))([**Slides**](#))([**Poster**](#))
 </div>
@@ -69,6 +69,8 @@ To achieve this, I worked on generalization, alignment and reasoning/planning ac
 [Inference-time Alignment in Continuous Space](https://openreview.net/pdf?id=9teQltJgBo)
 
 **Yige Yuan\***, Teng Xiao*, Yunfan Li, Bingbing Xu, Shuchang Tao, Yunqi Qiu, Huawei Shen, Xueqi Cheng
+
+- We propose SEA, a simple inference-time alignment method that reformulates alignment as an iterative optimization procedure on an energy function over logits in the continuous space defined by the optimal RLHF policy for deep and effective alignment.
 
 ([**Paper**](https://openreview.net/pdf?id=9teQltJgBo))([**Code**](https://github.com/yuanyige/sea))([**Slides**](#))([**Poster**](#))
 </div>
@@ -84,9 +86,9 @@ To achieve this, I worked on generalization, alignment and reasoning/planning ac
 
 Teng Xiao*, **Yige Yuan\***, Zhengyu Chen, Mingxiao Li, Shangsong Liang, Zhaochun Ren, Vasant G Honavar
 
-<!-- - The Thirteenth International Conference on Learning Representations (ICLR 2025); Singapore EXPO; Main Track -->
+- We propose SimPER, a simple yet effective hyperparameter-free alignment method that optimizes inverse perplexity. This lightweight objective eliminates the need for costly hyperparameter tuning and reference models, while theoretically optimizing total variation distance (TVD) and mitigating likelihood displacement issues.
 
-([**Paper**](https://arxiv.org/pdf/2502.00883))([**Code**](https://github.com/tengxiao1/SimPER))([**Slides**](#))([**Poster**](#))
+([**Paper**](https://arxiv.org/pdf/2502.00883))([**Code**](https://github.com/tengxiao1/SimPER))([**Slides**](#))([**Poster**](/resources/iclr2025-simper-poster.pdf))
 </div>
 </div>
 
@@ -99,9 +101,9 @@ Teng Xiao*, **Yige Yuan\***, Zhengyu Chen, Mingxiao Li, Shangsong Liang, Zhaochu
 
 Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 
-<!-- - The Thirteenth International Conference on Learning Representations (ICLR 2025); Singapore EXPO; Main Track -->
+- This work reveals that RLHF is barely RL and secretly performs imitation learning (IL) and propose DIL, a principled framework that directly optimizes IL. DIL unifies existing alignment methods as special cases while enabling new variants, offering fresh insights into alignment through the lens of imitation learning.
 
-([**Paper**](https://openreview.net/forum?id=2QdsjiNXgj))([**Code**](#))([**Slides**](#))([**Poster**](#))
+([**Paper**](https://openreview.net/forum?id=2QdsjiNXgj))([**Code**](https://github.com/tengxiao1/DIL))([**Slides**](#))([**Poster**](/resources/iclr2025-dil-poster.pdf))
 </div>
 </div>
 
@@ -118,8 +120,6 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 
 - We propose to investigate generalization from an energy-based perspective and introduce TEA, a test-time adaptation method which transforms the trained classifier into an energy-based model and aligns the model's distribution with the test data's, enhancing its ability to perceive test distributions and thus improving overall generalizability.
 
-<!-- - IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR 2024); Seattle WA, USA; Main Track -->
-
 ([**Paper**](https://arxiv.org/pdf/2311.14402))([**Code**](https://github.com/yuanyige/tea))([**Slides**](/resources/cvpr2024-tea-slides.pdf))([**Poster**](/resources/cvpr2024-tea-poster.pdf))
 </div>
 </div>
@@ -134,8 +134,6 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 **Yige Yuan**, Bingbing Xu, Bo Lin, Liang Hou, Fei Sun, Huawei Shen, Xueqi Cheng
 
 - We propose to investigate generalization from PDE perspective and propose PDE-ADD framework. We introduce adaptive distributional diffusion into transport equation to enhance smoothness of its solution, thereby improving generalization directly via the underlying function of NN.
-
-<!-- - Annual AAAI Conference on Artificial Intelligence (AAAI 2024); Vancouver, Canada; Main Track; -->
 
 ([**Paper**](https://arxiv.org/pdf/2305.15835))([**Code**](https://github.com/yuanyige/pde-add))([**Slides**](/resources/aaai2024-pdeadd-slides.pdf))([**Poster**](/resources/aaai2024-pdeadd-poster.pdf))
 </div>
