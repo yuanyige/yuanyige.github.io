@@ -31,7 +31,7 @@ To achieve this, I worked on generalization, alignment and reasoning/planning ac
 # 🔥 News 
 
 <span class='anchor' id='-news'></span>
-- _2025.05_: &nbsp;🎉🎉 One papers is accepted in ACL 2025.
+- _2025.05_: &nbsp;🎉🎉 One paper is accepted in ACL 2025.
 - _2025.04_: &nbsp;🎉🎉 Two papers are accepted in SIGIR 2025.
 - _2025.03_: &nbsp;🥳 Our paper, [SimPER](https://arxiv.org/abs/2502.00883), has been adopted by [LG AI Research](https://www.lgresearch.ai) as the core training algorithm for their [EXAONE Deep](https://arxiv.org/abs/2503.12524) series LLMs, helping their 32B model surpass the performance of DeepSeek R1 (671B)!
 - _2025.02_: &nbsp;🥇 Our team won first place in the [AgentSociety Challenge @ WWW 2025](https://tsinghua-fib-lab.github.io/AgentSocietyChallenge).
