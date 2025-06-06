@@ -25,12 +25,13 @@ To achieve this, I worked on generalization, alignment and reasoning/planning ac
 
 - **Large Language Model Alignment**: To align large language models with human values and safety requirements.
 
-- **AI System Reasoning and Planning**: To enhance AI's logical reasoning and strategic planning in complex environments.
+- **Agent System Reasoning and Planning**: To enhance agent's logical reasoning and strategic planning in complex environments.
 
 
 # 🔥 News 
 
 <span class='anchor' id='-news'></span>
+- _2025.06_: &nbsp;🎖 I received the President Award of the Chinese Academy of Sciences (CAS), the **highest** honor for CAS students.
 - _2025.05_: &nbsp;🎉🎉 One paper is accepted in ACL 2025.
 - _2025.04_: &nbsp;🎉🎉 Two papers are accepted in SIGIR 2025.
 - _2025.03_: &nbsp;🥳 Our paper, [SimPER](https://arxiv.org/abs/2502.00883), has been adopted by [LG AI Research](https://www.lgresearch.ai) as the core training algorithm for their [EXAONE Deep](https://arxiv.org/abs/2503.12524) series LLMs, helping their 32B model surpass the performance of DeepSeek R1 (671B)!
@@ -159,10 +160,11 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 
 # 🎖 Awards && Honors
 <span class='anchor' id='-honors-and-awards'></span>
+- _2025_ President Award, Chinese Academy of Sciences
 - _2025_ First place, AgentSociety Challenge @ WWW 2025
-- _2024_ National Scholarship (Doctoral Students)
+- _2024_ National Scholarship (PhD Students)
 - _2024_ First-Class Scholarship, University of Chinese Academy of Sciences
-- _2023_ Presidential Scholarship, Institute of Computing Technology
+- _2023_ President Award, Institute of Computing Technology
 - _2022_ First-Class Scholarship, University of Chinese Academy of Sciences
 - _2022_ Outstanding Student Award, University of Chinese Academy of Sciences
 - _2019_ First Prize, 12th National College Students Information Security Contest
