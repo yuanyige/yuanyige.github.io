@@ -25,7 +25,7 @@ To achieve this, I worked on generalization, alignment and reasoning/planning ac
 
 - **Large Language Model Alignment**: To align large language models with human values and safety requirements.
 
-- **Agent System Reasoning and Planning**: To enhance agent's logical reasoning and strategic planning in complex environments.
+- **Agent System Reasoning and Planning**: To enhance agent's logical reasoning and strategic planning for complex tasks.
 
 
 # 🔥 News 
