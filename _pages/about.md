@@ -18,8 +18,8 @@ redirect_from:
 
 I am currently pursuing my Ph.D. at the State Key Laboratory of AI Safety, advised by Prof. Xueqi Cheng and Assoc. Prof. Bingbing Xu.
 
-My research goal is to build Trustworthy AI that performs reliably across diverse scenarios.
-To achieve this, I worked on generalization, alignment and reasoning/planning across the domains of graph, vision, and language. My research includes:
+My research goal is to build Trustworthy AI that performs reliably and ethically for social good and human well-being.
+To achieve this, I worked on generalization, alignment and agentic system across the domains of graph, vision, and language. My research includes:
 
 - **Machine Learning Generalization**: To make models generalize stably under domain shifts, noises, or perturbations. 
 
