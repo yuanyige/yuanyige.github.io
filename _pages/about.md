@@ -31,6 +31,7 @@ To achieve this, I worked on generalization, alignment and agentic system across
 # 🔥 News 
 
 <span class='anchor' id='-news'></span>
+- _2025.07_: &nbsp;🥳 We're excited to host "The 1st Workshop on LLM Agents for Social Simulation" at CIKM 2025 in Seoul, Korea!
 - _2025.06_: &nbsp;🎖 I received the President Award of the Chinese Academy of Sciences (CAS), the **highest honor** for CAS students.
 - _2025.05_: &nbsp;🎉🎉 One paper is accepted in ACL 2025.
 - _2025.04_: &nbsp;🎉🎉 Two papers are accepted in SIGIR 2025.
