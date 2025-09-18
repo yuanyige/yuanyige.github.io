@@ -31,6 +31,7 @@ To achieve this, I worked on generalization, alignment and agentic system across
 # 🔥 News 
 
 <span class='anchor' id='-news'></span>
+- _2025.09_: &nbsp;🎉🎉 Our paper [Inference-time Alignment in Continuous Space](https://arxiv.org/abs/2505.20081) is accepted in NeurIPS 2025.
 - _2025.09_: &nbsp;🥳 Thrilled to join the [NICE Committee](https://nice-nlp.github.io)!
 - _2025.07_: &nbsp;🥳 We're excited to host "The 1st Workshop on LLM Agents for Social Simulation" at CIKM 2025 in Seoul, Korea!
 - _2025.06_: &nbsp;🎖 I received the President Award of the Chinese Academy of Sciences (CAS), the **highest honor** for CAS students.
@@ -66,7 +67,7 @@ To achieve this, I worked on generalization, alignment and agentic system across
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025 Bi-Align</div><img src='/resources/sea-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='/resources/sea-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Inference-time Alignment in Continuous Space](https://openreview.net/pdf?id=9teQltJgBo)
@@ -75,7 +76,7 @@ To achieve this, I worked on generalization, alignment and agentic system across
 
 - We propose SEA, a simple inference-time alignment method that reformulates alignment as an iterative optimization procedure on an energy function over logits in the continuous space defined by the optimal RLHF policy for deep and effective alignment.
 
-([**Paper**](https://openreview.net/pdf?id=9teQltJgBo))([**Code**](https://github.com/yuanyige/sea))([**Slides**](#))([**Poster**](#))
+([**Paper**](https://arxiv.org/abs/2505.20081))([**Code**](https://github.com/yuanyige/sea))([**Slides**](#))([**Poster**](#))
 </div>
 </div>
 
@@ -132,7 +133,7 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='/resources/aaai2024-pdeadd-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[ PDE+: Enhancing Generalization via PDE with Adaptive Distributional Diffusion](https://arxiv.org/abs/2305.15835)
+[PDE+: Enhancing Generalization via PDE with Adaptive Distributional Diffusion](https://arxiv.org/abs/2305.15835)
 
 **Yige Yuan**, Bingbing Xu, Bo Lin, Liang Hou, Fei Sun, Huawei Shen, Xueqi Cheng
 
@@ -191,6 +192,8 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 # 💻 Invited Talks
 
 <span class='anchor' id='-invited-talks'></span>
+- NICE Webinar, On Energy Perspectives of Alignment: From Training to Inference, Sep 2025 [\[video\]](https://www.bilibili.com/video/BV1g7HrzBEyn)
+- WiseModel Talk, On a Connection Between Imitation Learning and RLHF, April 2025 
 - NICE Webinar, On a Connection Between Imitation Learning and RLHF, March 2025 [\[video\]](https://www.bilibili.com/video/BV1LwXsYPEsV)
 - AITime Youth PhD Talk, On a Connection Between Imitation Learning and RLHF, March 2025 [\[video\]](https://www.bilibili.com/video/BV11N91Y1EQw)
 - LOGS Webinar, Partial Differential Equation-Driven Generalizable Neural Networks, March 2024 [\[video\]](https://www.bilibili.com/video/BV1QK421v7e6)
@@ -202,9 +205,9 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 
 <span class='anchor' id='-academic-services'></span>
 
-* **Conference Reviewers**: NeurIPS (2024, 2025), ICML 2025, ICLR 2025, AISTATS 2025, KDD 2025, WWW 2025, ACMMM 2025, AAAI 2025, IJCAI 2025, ACL 2025, EMNLP 2024, COLING 2025, ACL Rolling Review, MIDL 2025, IJCNN 2025
+* **Conference Reviewers**: NeurIPS (2024, 2025), ICML 2025, ICLR (2025, 2026), AISTATS (2025, 2026), KDD 2025, WWW (2025, 2026), ACMMM 2025, AAAI (2025, 2026), IJCAI 2025, ACL 2025, EMNLP (2024, 2025), COLING 2025, ACL Rolling Review, MIDL 2025, IJCNN 2025
 
-* **Journal Reviewers**: IEEE Transactions on Knowledge and Data Engineering (TKDE), Applied Intelligence (APIN), CAAI Transactions on Intelligence Technology
+* **Journal Reviewers**: IEEE Transactions on Knowledge and Data Engineering (TKDE), Applied Intelligence (APIN), CAAI Transactions on Intelligence Technology, IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 
 
 

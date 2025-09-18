@@ -27,10 +27,28 @@ redirect_from:
 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='/resources/sea-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Inference-time Alignment in Continuous Space](https://arxiv.org/abs/2505.20081)
+
+**Yige Yuan\***, Teng Xiao*, Yunfan Li, Bingbing Xu, Shuchang Tao, Yunqi Qiu, Huawei Shen, Xueqi Cheng
+
+- Annual Conference on Neural Information Processing Systems (NeurIPS 2025)
+- San Diego, California, USA
+- Main Paper, CCF-A
+
+([**Paper**](https://arxiv.org/pdf/2505.20081))([**Code**](https://github.com/yuanyige/sea))([**Slides**](#))([**Poster**](#))
+</div>
+</div>
+
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025</div><img src='/resources/sprm-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Score Consistency Meets Preference Alignment: Dual-Consistency for Partial Reward Modeling]()
+[From Outcomes to Processes: Guiding PRM Learning from ORM for Inference-Time Alignment](https://aclanthology.org/2025.acl-long.946/)
 
 Bin Xie, Bingbing Xu, **Yige Yuan**, Shengmao Zhu, Huawei Shen 
 
@@ -38,24 +56,7 @@ Bin Xie, Bingbing Xu, **Yige Yuan**, Shengmao Zhu, Huawei Shen
 - Vienna, Austria
 - Main Paper
 
-([**Paper**]())([**Code**]())([**Slides**](#))([**Poster**](#))
-</div>
-</div>
-
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025 Bi-Align</div><img src='/resources/sea-pic.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Inference-time Alignment in Continuous Space](https://openreview.net/pdf?id=9teQltJgBo)
-
-**Yige Yuan\***, Teng Xiao*, Yunfan Li, Bingbing Xu, Shuchang Tao, Yunqi Qiu, Huawei Shen, Xueqi Cheng
-
-- The Thirteenth International Conference on Learning Representations (ICLR 2025)
-- Singapore EXPO
-- Bi-Align Workshop
-
-([**Paper**](https://openreview.net/pdf?id=9teQltJgBo))([**Code**](https://github.com/yuanyige/sea))([**Slides**](#))([**Poster**](#))
+([**Paper**](https://aclanthology.org/2025.acl-long.946.pdf))([**Code**](https://github.com/xiebin23/SP-PRM))([**Slides**](#))([**Poster**](#))
 </div>
 </div>
 
@@ -96,14 +97,16 @@ Zixu Wang, Bingbing Xu, **Yige Yuan**, Huawei Shen, Xueqi Cheng
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='/resources/mige-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2025</div><img src='/resources/mige-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MIGE: A Unified Framework for Multimodal Instruction-Based Image Generation and Editing](https://arxiv.org/abs/2502.21291)
 
 Xueyun Tian, Wei Li, Bingbing Xu, **Yige Yuan**, Yuanzhuo Wang, Huawei Shen
 
-- arXiv preprint arXiv:2502.21291
+- ACM International Conference on Multimedia (ACMMM 2025)
+- Dublin, Ireland
+- Regular Paper
 
 ([**Paper**](https://arxiv.org/pdf/2502.21291))([**Code**](#))([**Slides**](#))([**Poster**](#))
 </div>
@@ -173,7 +176,7 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 
 Teng Xiao, **Yige Yuan**, Huaisheng Zhu, Mingxiao Li, Vasant G Honavar
 
-- The Thirty-Eighth Annual Conference on Neural Information Processing Systems (NeurIPS 2024)
+- Annual Conference on Neural Information Processing Systems (NeurIPS 2024)
 - Vancouver, Canada
 - Main Paper, CCF-A
 
@@ -293,8 +296,8 @@ Zixu Wang, Bingbing Xu, **Yige Yuan**, Huawei Shen and Xueqi Cheng
 
 Liang Hou, Qi Cao, **Yige Yuan**, Songtao Zhao, Chongyang Ma, Siyuan Pan, Pengfei Wan, Zhongyuan Wang, Huawei Shen, Xueqi Cheng
 
-- The Thirty-Seventh Annual Conference on Neural Information Processing Systems (NeurIPS 2024)
-- Vancouver, Canada
+- Annual Conference on Neural Information Processing Systems (NeurIPS 2023)
+- New Orleans, Louisiana, USA
 - Main Paper, CCF-A
 
 ([**Paper**](https://arxiv.org/pdf/2205.15677))([**Code**](https://github.com/liang-hou/augself-gan))([**Slides**](/resources/neurips2023-augselfgan-slides.pdf))([**Poster**](/resources/neurips2023-augselfgan-poster.png))([**Video**](https://neurips.cc/virtual/2023/poster/71803))
