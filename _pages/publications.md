@@ -36,7 +36,7 @@ redirect_from:
 
 - Annual Conference on Neural Information Processing Systems (NeurIPS 2025)
 - San Diego, California, USA
-- Main Paper, CCF-A
+- Main Track, CCF-A
 
 ([**Paper**](https://arxiv.org/pdf/2505.20081))([**Code**](https://github.com/yuanyige/sea))([**Slides**](#))([**Poster**](#))
 </div>
@@ -178,7 +178,7 @@ Teng Xiao, **Yige Yuan**, Huaisheng Zhu, Mingxiao Li, Vasant G Honavar
 
 - Annual Conference on Neural Information Processing Systems (NeurIPS 2024)
 - Vancouver, Canada
-- Main Paper, CCF-A
+- Main Track, CCF-A
 
 ([**Paper**](https://arxiv.org/pdf/2412.14516))([**Code**](https://github.com/tengxiao1/Cal-DPO))([**Slides**](#))([**Poster**](#))
 </div>
@@ -298,7 +298,7 @@ Liang Hou, Qi Cao, **Yige Yuan**, Songtao Zhao, Chongyang Ma, Siyuan Pan, Pengfe
 
 - Annual Conference on Neural Information Processing Systems (NeurIPS 2023)
 - New Orleans, Louisiana, USA
-- Main Paper, CCF-A
+- Main Track, CCF-A
 
 ([**Paper**](https://arxiv.org/pdf/2205.15677))([**Code**](https://github.com/liang-hou/augself-gan))([**Slides**](/resources/neurips2023-augselfgan-slides.pdf))([**Poster**](/resources/neurips2023-augselfgan-poster.png))([**Video**](https://neurips.cc/virtual/2023/poster/71803))
 </div>
