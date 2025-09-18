@@ -32,7 +32,7 @@ To achieve this, I worked on generalization, alignment and agentic system across
 
 <span class='anchor' id='-news'></span>
 - _2025.09_: &nbsp;🎉🎉 Our paper [Inference-time Alignment in Continuous Space](https://arxiv.org/abs/2505.20081) is accepted in NeurIPS 2025.
-- _2025.09_: &nbsp;🥳 Thrilled to join the [NICE Committee](https://nice-nlp.github.io)!
+- _2025.09_: &nbsp;🥳 I am thrilled to join the [NICE Committee](https://nice-nlp.github.io)!
 - _2025.07_: &nbsp;🥳 We're excited to host "The 1st Workshop on LLM Agents for Social Simulation" at CIKM 2025 in Seoul, Korea!
 - _2025.06_: &nbsp;🎖 I received the President Award of the Chinese Academy of Sciences (CAS), the **highest honor** for CAS students.
 - _2025.05_: &nbsp;🎉🎉 One paper is accepted in ACL 2025.
