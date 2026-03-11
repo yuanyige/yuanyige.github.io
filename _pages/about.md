@@ -16,7 +16,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an incoming postdoc at the University of Washington, advised by Prof. Tim Althoff. I completed my PhD at the university of chinese academy of sciences, where I am advised by Prof. Xueqi Cheng and Assoc. Prof. Bingbing Xu.
+I am an incoming postdoc at the University of Washington, advised by [Prof. Tim Althoff](https://scholar.google.com/citations?user=yc4nBNgAAAAJ). I completed my PhD at the University of Chinese Academy of Sciences, where I am advised by [Prof. Xueqi Cheng](https://scholar.google.com/citations?user=hY8aLqAAAAAJ) and [Assoc. Prof. Bingbing Xu](https://scholar.google.com/citations?user=PSx2drgAAAAJ).
 
 My research goal is to build Trustworthy AI that performs reliably and ethically for social good and human well-being.
 To achieve this, I worked on generalization, alignment and agentic system across the domains of graph, vision, and language. My research includes:
