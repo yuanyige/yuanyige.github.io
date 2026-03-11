@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yige Yuan (袁一歌)"
-description              : "University of Chinese Academy of Sciences"
+description              : "Ph.D. from the University of Chinese Academy of Sciences"
 repository               : "yuanyige/yuanyige.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,7 +24,7 @@ author:
   name             : "Yige Yuan "
   china_name    :  "(袁一歌)"
   avatar           : "/images/yuanyige-512x512.png"
-  bio              : "Ph.D. "
+  bio              : "Incoming Postdoc at the University of Washington"
   location         : "Beijing, China"
   employer         : 
   pubmed           : 
