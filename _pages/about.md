@@ -16,7 +16,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently pursuing my Ph.D. at the State Key Laboratory of AI Safety, advised by Prof. Xueqi Cheng and Assoc. Prof. Bingbing Xu.
+I am an incoming postdoc at the University of Washington, advised by Prof. Tim Althoff. I completed my PhD at the university of chinese academy of sciences, where I am advised by Prof. Xueqi Cheng and Assoc. Prof. Bingbing Xu.
 
 My research goal is to build Trustworthy AI that performs reliably and ethically for social good and human well-being.
 To achieve this, I worked on generalization, alignment and agentic system across the domains of graph, vision, and language. My research includes:
@@ -31,6 +31,8 @@ To achieve this, I worked on generalization, alignment and agentic system across
 # 🔥 News 
 
 <span class='anchor' id='-news'></span>
+- _2026.02_: &nbsp;🎓 I graduated from the University of Chinese Academy of Sciences (UCAS) and will join the University of Washington (UW) as a postdoctoral scholar!
+- _2026.01_: &nbsp;🎉🎉 Our paper [Incentivizing Strong Reasoning from Weak Supervision](https://arxiv.org/abs/2505.20072) is accepted in EACL 2026 Oral.
 - _2025.09_: &nbsp;🎉🎉 Our paper [Inference-time Alignment in Continuous Space](https://arxiv.org/abs/2505.20081) is accepted in NeurIPS 2025.
 - _2025.09_: &nbsp;🥳 I am thrilled to join the [NICE Committee](https://nice-nlp.github.io)!
 - _2025.07_: &nbsp;🥳 We're excited to host "The 1st Workshop on LLM Agents for Social Simulation" at CIKM 2025 in Seoul, Korea!
@@ -52,7 +54,7 @@ To achieve this, I worked on generalization, alignment and agentic system across
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='/resources/w2sr-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EACL 2026 ORAL</div><img src='/resources/w2sr-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Incentivizing Strong Reasoning from Weak Supervision](https://arxiv.org/abs/2505.20072)
@@ -184,14 +186,11 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
   - Ph.D. in Computer Software and Theory
   - Advisor: Professor [Xueqi Cheng](https://scholar.google.com/citations?user=hY8aLqAAAAAJ) and Associate Professor [Bingbing Xu](https://scholar.google.com/citations?user=PSx2drgAAAAJ)
 
-- _2016.09 - 2020.06_, **Xidian University**.
-  - Department of Network and Information Security
-  - B.S. in Information Security (Experimental Class)
-
 
 # 💻 Invited Talks
 
 <span class='anchor' id='-invited-talks'></span>
+- Tsinghua University, From Preference Alignment to Deep Reasoning: Toward Long-Horizon Agentic System, Jan 2026
 - NICE Webinar, On Energy Perspectives of Alignment: From Training to Inference, Sep 2025 [\[video\]](https://www.bilibili.com/video/BV1g7HrzBEyn)
 - WiseModel Talk, On a Connection Between Imitation Learning and RLHF, April 2025 
 - NICE Webinar, On a Connection Between Imitation Learning and RLHF, March 2025 [\[video\]](https://www.bilibili.com/video/BV1LwXsYPEsV)
@@ -205,7 +204,7 @@ Teng Xiao, **Yige Yuan**, Mingxiao Li, Zhengyu Chen, Vasant G Honavar
 
 <span class='anchor' id='-academic-services'></span>
 
-* **Conference Reviewers**: NeurIPS (2024, 2025), ICML 2025, ICLR (2025, 2026), AISTATS (2025, 2026), KDD 2025, WWW (2025, 2026), ACMMM 2025, AAAI (2025, 2026), IJCAI 2025, ACL 2025, EMNLP (2024, 2025), COLING 2025, ACL Rolling Review, MIDL 2025, IJCNN 2025
+* **Conference Reviewers**: NeurIPS (2024, 2025), ICML (2025, 2026), ICLR (2025, 2026), AISTATS (2025, 2026), KDD (2025, 2026), WWW (2025, 2026), ACMMM 2025, AAAI (2025, 2026), IJCAI (2025, 2026), ACL 2025, EMNLP (2024, 2025), COLING 2025, ACL Rolling Review, MIDL 2025, IJCNN 2025
 
 * **Journal Reviewers**: IEEE Transactions on Knowledge and Data Engineering (TKDE), Applied Intelligence (APIN), CAAI Transactions on Intelligence Technology, IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 

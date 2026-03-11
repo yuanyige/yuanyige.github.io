@@ -12,14 +12,16 @@ redirect_from:
 <div  class="paper-pub-title-year"> 2025 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='/resources/w2sr-pic.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EACL 2026 Oral</div><img src='/resources/w2sr-pic.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Incentivizing Strong Reasoning from Weak Supervision](https://arxiv.org/abs/2505.20072)
 
-**Yige Yuan\***, Teng Xiao*, Shuchang Tao, Xue Wang, Jinyang Gao, Bolin Ding, Bingbing Xu
+**Yige Yuan**, Teng Xiao, Shuchang Tao, Xue Wang, Jinyang Gao, Bolin Ding, Bingbing Xu
 
-- arXiv preprint arXiv:2505.20072 
+- Conference of the European Chapter of the Association for Computational Linguistics (EACL 2026)
+- Rabat, Morocco
+- Main Track, Oral
 
 ([**Paper**](https://arxiv.org/pdf/2505.20072))([**Code**](https://github.com/yuanyige/w2sr))([**Slides**](#))([**Poster**](#))
 </div>
