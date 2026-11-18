@@ -1,0 +1,542 @@
+/*
+  Single column, one typeface (Raleway), one accent.
+  Headings are large and light; emphasis comes from weight 600 in the text.
+  Ink on white in three greys; the accent (blue) is kept for hover states
+  and award labels. Sections are separated by hairline rules.
+*/
+
+:root {
+  --bg: #ffffff;
+  --ink: #111111;
+  --body: #333333;
+  --muted: #666666;
+  --faint: #8c8c8c;
+  --rule: #ebebeb;
+  --rule-strong: #d2d2d2;
+  --accent: #1a5fb4;
+  --shade: rgba(0, 0, 0, 0.16);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111111;
+    --ink: #ededed;
+    --body: #d0d0d0;
+    --muted: #a3a3a3;
+    --faint: #7c7c7c;
+    --rule: #262626;
+    --rule-strong: #3d3d3d;
+    --accent: #7eb2f0;
+    --shade: rgba(255, 255, 255, 0.14);
+    color-scheme: dark;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--body);
+  font-family: 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, 'PingFang SC',
+    'Microsoft YaHei', sans-serif;
+  font-size: 15px;
+  line-height: 1.65;
+  /* Raleway defaults to old-style figures; dates and years read better lined up. */
+  font-variant-numeric: lining-nums;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--rule-strong);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--accent);
+  text-decoration-color: currentColor;
+}
+
+strong,
+b {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---------- Intro ---------- */
+
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 64px 0 36px;
+}
+
+.avatar-link {
+  flex: none;
+  line-height: 0;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.intro h1 {
+  margin: 0 0 8px;
+  font-size: 42px;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: var(--ink);
+}
+
+.intro .zh {
+  margin-left: 8px;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0;
+  color: var(--muted);
+}
+
+.role {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+/* Icon-only links; each link names itself through title / aria-label. */
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 13px;
+  margin: 10px 0 0;
+}
+
+.contact a {
+  display: inline-flex;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: var(--accent);
+}
+
+.icon {
+  flex: none;
+}
+
+.contact .icon {
+  width: 17px;
+  height: 17px;
+}
+
+/* ---------- Section bar ---------- */
+
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--bg);
+}
+
+.nav ul {
+  display: flex;
+  gap: 28px;
+  margin: 0;
+  padding: 14px 0;
+  list-style: none;
+  overflow-x: auto;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  scrollbar-width: none;
+}
+
+.nav ul::-webkit-scrollbar {
+  display: none;
+}
+
+.nav a {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  color: var(--ink);
+}
+
+.nav a:hover {
+  color: var(--accent);
+}
+
+/* ---------- Sections ---------- */
+
+.content h2 {
+  margin: 48px 0 18px;
+  padding-top: 44px;
+  border-top: 1px solid var(--rule);
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  color: var(--ink);
+  scroll-margin-top: 30px;
+}
+
+.content > h2:first-child {
+  margin-top: 0;
+  border-top: 0;
+}
+
+/* Group labels inside a section, e.g. the years on the publications page. */
+.content h3 {
+  margin: 36px 0 6px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--rule);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.content p {
+  margin: 0 0 12px;
+}
+
+.content ul {
+  margin: 0 0 12px;
+  padding-left: 1.2em;
+}
+
+.content li {
+  margin: 5px 0;
+}
+
+.content li::marker {
+  color: var(--faint);
+}
+
+/* Coloured name links, e.g. advisors: write `[Name](url){:.name}`. */
+.content a.name {
+  color: var(--accent);
+  text-decoration-color: color-mix(in srgb, var(--accent) 35%, transparent);
+}
+
+.content a.name:hover {
+  text-decoration-color: currentColor;
+}
+
+.note {
+  margin: -8px 0 0 !important;
+  font-size: 14px;
+  color: var(--faint);
+}
+
+/* ---------- Dated lists: news, awards, experiences ---------- */
+/* Write each item as `- _2026.02_ text`; the leading date becomes its own column. */
+
+.dated {
+  --date-col: 78px;
+  font-size: 15px;
+}
+
+.dated.wide {
+  --date-col: 142px;
+}
+
+.dated > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dated > ul > li {
+  position: relative;
+  margin: 0;
+  padding: 4px 0 4px var(--date-col);
+}
+
+.dated > ul > li > em:first-child {
+  position: absolute;
+  left: 0;
+  font-style: normal;
+  color: var(--faint);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.dated li ul {
+  margin: 2px 0 6px;
+  color: var(--muted);
+  font-size: 14.5px;
+}
+
+/* Fixed-height news box: the rest scrolls, with a soft edge where items are hidden. */
+.dated.scroll {
+  max-height: 228px;
+  overflow-y: auto;
+  padding-right: 12px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--rule-strong) transparent;
+  background:
+    linear-gradient(var(--bg) 30%, transparent) top / 100% 36px no-repeat local,
+    linear-gradient(transparent, var(--bg) 70%) bottom / 100% 36px no-repeat local,
+    radial-gradient(farthest-side at 50% 0, var(--shade), transparent) top / 100% 10px no-repeat scroll,
+    radial-gradient(farthest-side at 50% 100%, var(--shade), transparent) bottom / 100% 10px no-repeat scroll;
+}
+
+.dated.scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.dated.scroll::-webkit-scrollbar-thumb {
+  background: var(--rule-strong);
+  border-radius: 3px;
+}
+
+.dated.scroll:focus-visible {
+  outline: 2px solid var(--rule-strong);
+  outline-offset: 4px;
+}
+
+/* ---------- Publications: thumbnail left, text right ---------- */
+
+.pubs {
+  margin: 22px 0 0 !important;
+  padding: 0 !important;
+  list-style: none;
+}
+
+.pub {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin: 0 0 30px !important;
+}
+
+.pub:last-child {
+  margin-bottom: 0 !important;
+}
+
+.pub-thumb {
+  flex: none;
+  width: 200px;
+  margin-top: 3px;
+}
+
+.pub-thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  object-fit: contain;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+/* No figure yet: a quiet tile carrying the venue keeps the column aligned. */
+.pub-thumb-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 78px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
+.pub-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.pub-title {
+  font-size: 15.5px;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.pub-authors {
+  margin-top: 3px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.pub-authors .me {
+  color: var(--ink);
+}
+
+.pub-venue {
+  margin-top: 3px;
+  font-size: 14px;
+  color: var(--body);
+}
+
+.pub-award {
+  margin-left: 10px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.pub-summary,
+.pub-details {
+  margin-top: 6px;
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--faint);
+}
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.pub-btn {
+  padding: 1px 16px;
+  border: 1px solid var(--rule-strong);
+  border-radius: 4px;
+  font-size: 12.5px;
+  line-height: 1.8;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.pub-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* ---------- Service ---------- */
+
+.content dl {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 10px 24px;
+  margin: 0;
+  font-size: 15px;
+}
+
+.content dt {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.content dd {
+  margin: 0;
+}
+
+/* One item per line followed by its venue in grey, e.g. a workshop's conference:
+   <span class="row">Title <span class="where">Venue</span></span> */
+.row {
+  display: block;
+}
+
+.where {
+  margin-left: 8px;
+  color: var(--faint);
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+  margin-top: 64px !important;
+  padding-bottom: 40px !important;
+  font-size: 13px;
+  color: var(--faint);
+}
+
+footer p {
+  margin: 0;
+  padding-top: 20px;
+  border-top: 1px solid var(--rule);
+}
+
+/* ---------- Small screens ---------- */
+
+@media (max-width: 640px) {
+  .intro {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 40px 0 28px;
+  }
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .nav ul {
+    gap: 22px;
+  }
+
+  .dated {
+    --date-col: 70px;
+  }
+
+  .dated.wide > ul > li {
+    padding-left: 0;
+  }
+
+  .dated.wide > ul > li > em:first-child {
+    position: static;
+    display: block;
+  }
+
+  .pub {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .pub-thumb {
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .pub-thumb img {
+    max-height: 190px;
+  }
+
+  .pub-thumb-empty {
+    display: none;
+  }
+
+  .content dl {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+
+  .content dd {
+    margin-bottom: 12px;
+  }
+}

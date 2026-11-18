@@ -1,0 +1,26 @@
+{% comment %}
+  Renders papers from _data/publications.yml as thumbnail + text rows.
+
+  Parameters (all optional):
+    selected=true     only papers marked `selected: true`
+    year=2025         only papers of that year
+    mode="details"    show the `details` lines (venue full name, location, track)
+                      instead of the `summary` paragraph
+{% endcomment %}
+{% assign pubs = site.data.publications %}
+{% if include.selected %}{% assign pubs = pubs | where: "selected", true %}{% endif %}
+{% if include.year %}{% assign pubs = pubs | where: "year", include.year %}{% endif %}
+<ul class="pubs">
+{% for p in pubs %}
+<li class="pub">
+{% if p.image %}<div class="pub-thumb"><img src="{{ p.image }}" alt="Overview figure of {{ p.title | escape }}" loading="lazy"></div>{% else %}<div class="pub-thumb pub-thumb-empty" aria-hidden="true">{{ p.venue }}</div>{% endif %}
+<div class="pub-body">
+{% if p.url and p.url != "" %}<a class="pub-title" href="{{ p.url }}">{{ p.title }}</a>{% else %}<span class="pub-title">{{ p.title }}</span>{% endif %}
+<div class="pub-authors">{{ p.authors | replace: "Yige Yuan", '<b class="me">Yige Yuan</b>' }}</div>
+<div class="pub-venue"><em>{{ p.venue }}</em>{% if p.award %}<span class="pub-award">{{ p.award }}</span>{% endif %}</div>
+{% if include.mode == "details" %}{% if p.details %}<div class="pub-details">{{ p.details | join: " · " }}</div>{% endif %}{% elsif p.summary %}<div class="pub-summary">{{ p.summary }}</div>{% endif %}
+{% if p.links %}<div class="pub-links">{% for l in p.links %}<a class="pub-btn" href="{{ l.url }}">{{ l.name }}</a>{% endfor %}</div>{% endif %}
+</div>
+</li>
+{% endfor %}
+</ul>

@@ -1,0 +1,440 @@
+# Publication list — single source for both the home page and /publications/.
+#
+# Newest first. One entry per paper:
+#   title     paper title (linked to `url`)
+#   url       abstract / landing page
+#   authors   plain text; "Yige Yuan" is bolded automatically, keep * for equal contribution
+#   venue     short venue shown in the venue line, e.g. "NeurIPS 2025"
+#   award     optional highlight next to the venue, e.g. "Oral"
+#   year      group heading on /publications/
+#   image     thumbnail under /resources/ (optional; a grey tile is shown without one)
+#   selected  true -> also shown under "Selected Publications" on the home page
+#   summary   one-paragraph description (home page)
+#   details   list of extra lines (venue full name, location, track) shown on /publications/
+#   links     buttons, in order; leave out the ones that do not exist yet
+
+- title: "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization"
+  url: "https://arxiv.org/abs/2611.11995"
+  authors: "Zhengyu Hu, Zheyuan Xiao, Yike Wang, Hamish Ivison, Haoyu Wang, Yige Yuan, Rulin Shao, Yuetai Li, Niqi Lyu, Yicheng Ding, Shu Yang, Zhichen Zeng, Banghua Zhu, Jiaxin Pei, Kaize Ding, Pradeep Dasigi, Dan Roth, Hannaneh Hajishirzi, Noah A. Smith, Teng Xiao, Radha Poovendran"
+  venue: "arXiv"
+  year: 2026
+  image: "/resources/infrathon-pic.png"
+  selected: true
+  summary: "We study whether frontier agents can continually improve real-world AI infrastructure over long horizons and introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks. Across 150 runs with 24-hour budgets, model rankings vary with the evaluation horizon and 135 runs keep improving in the second half of their budgets, while agents can discover solutions that outperform human-designed baselines."
+  details:
+    - "arXiv preprint arXiv:2611.11995"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2611.11995"
+    - name: "Website"
+      url: "https://infrathonx.github.io/site/"
+    - name: "Code"
+      url: "https://github.com/InfrathonX/Infrathon"
+
+- title: "Collaborative Personalized Preference Alignment for LLMs under Data Deficiency"
+  url: "https://arxiv.org/abs/2610.05898"
+  authors: "Liyan Yang, Yige Yuan, Zhiqin Yang"
+  venue: "arXiv"
+  year: 2026
+  image: "/resources/cppa-pic.png"
+  details:
+    - "arXiv preprint arXiv:2610.05898"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2610.05898"
+
+- title: "Co-Harness: Co-Evolving Harnesses and Model Weights for LLM Agents"
+  url: "https://arxiv.org/abs/2607.22688"
+  authors: "Zhengyu Chen*, Teng Xiao*, Huaisheng Zhu, Yige Yuan, Luan Zhang, Jingang Wang"
+  venue: "arXiv"
+  year: 2026
+  image: "/resources/coharness-pic.png"
+  details:
+    - "arXiv preprint arXiv:2607.22688"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2607.22688"
+
+- title: "Rethinking the Evaluation of Harness Evolution for Agents"
+  url: "https://arxiv.org/abs/2607.12227"
+  authors: "Yike Wang, Huaisheng Zhu, Zhengyu Hu, Yige Yuan, Zhengyu Chen, Shakti Senthil, Hannaneh Hajishirzi, Yulia Tsvetkov, Noah A. Smith, Pradeep Dasigi, Teng Xiao"
+  venue: "arXiv"
+  year: 2026
+  image: "/resources/harness-eval-pic.png"
+  selected: true
+  summary: "We revisit the evaluation of automatic harness evolution for LLM agents and identify two issues in the protocol: missing matched-budget comparisons with simple task-level search, and no separation between the tasks used for search and for reporting. Under matched budgets and held-out evaluation, harness evolution fails to outperform simple test-time scaling on Terminal-Bench 2.1, yet improves over the search baseline by 80% on ARC-AGI-3."
+  details:
+    - "arXiv preprint arXiv:2607.12227"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2607.12227"
+    - name: "Code"
+      url: "https://github.com/rethinking-harness-evolution"
+
+- title: "Meta-Reinforcement Learning with Self-Reflection for Agentic Search"
+  url: "https://arxiv.org/abs/2603.11327"
+  authors: "Teng Xiao*, Yige Yuan*, Hamish Ivison, Huaisheng Zhu, Faeze Brahman, Nathan Lambert, Pradeep Dasigi, Noah A. Smith, Hannaneh Hajishirzi"
+  venue: "COLM 2026"
+  year: 2026
+  image: "/resources/mrsearch-pic.png"
+  selected: true
+  summary: "We introduce MR-Search, an in-context meta reinforcement learning formulation for agentic search with self-reflection. Instead of optimizing within a single independent episode, MR-Search trains a policy that conditions on past episodes and their self-reflections to adapt its search strategy at test time, with a multi-turn RL algorithm for turn-level credit assignment, yielding relative improvements of 9.2% to 19.3% across eight benchmarks."
+  details:
+    - "Conference on Language Modeling (COLM 2026)"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2603.11327"
+    - name: "Code"
+      url: "https://github.com/tengxiao1/MR-Search"
+
+- title: "Simple Denoising Diffusion Language Models"
+  url: "https://arxiv.org/abs/2510.22926"
+  authors: "Huaisheng Zhu, Zhengyu Chen, Shijie Zhou, Zhihui Xie, Yige Yuan, Shiqi Chen, Zhimeng Guo, Siyuan Xu, Hangfan Zhang, Vasant G Honavar, Teng Xiao"
+  venue: "ICML 2026"
+  year: 2026
+  image: "/resources/sddlm-pic.svg"
+  details:
+    - "International Conference on Machine Learning (ICML 2026)"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2510.22926"
+
+- title: "R²PO: Decoupling Rollout and Inference Policies for LLM Reasoning"
+  url: "https://arxiv.org/abs/2601.11960"
+  authors: "Jingchu Wang, Bingbing Xu, Yige Yuan, Dan Zhang, Bin Xie, Xiaoqian Sun, Huawei Shen"
+  venue: "arXiv"
+  year: 2026
+  image: "/resources/r2po-pic.png"
+  details:
+    - "arXiv preprint arXiv:2601.11960"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2601.11960"
+
+- title: "Do We Always Need Query-Level Workflows? Rethinking Agentic Workflow Generation for Multi-Agent Systems"
+  url: "https://arxiv.org/abs/2601.11147"
+  authors: "Zixu Wang, Bingbing Xu, Yige Yuan, Huawei Shen, Xueqi Cheng"
+  venue: "arXiv"
+  year: 2026
+  image: "/resources/workflow-pic.jpg"
+  details:
+    - "arXiv preprint arXiv:2601.11147"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2601.11147"
+
+- title: "GIFT: Games as Informal Training for Generalizable LLMs"
+  url: "https://arxiv.org/abs/2601.05633"
+  authors: "Nuoyan Lyu, Bingbing Xu, Xueyun Tian, Weihao Meng, Yige Yuan, Yang Zhang, Zhiyong Huang, Tat-Seng Chua, Huawei Shen"
+  venue: "arXiv"
+  year: 2026
+  image: "/resources/gift-pic.png"
+  details:
+    - "arXiv preprint arXiv:2601.05633"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2601.05633"
+
+- title: "Multi-Personality Generation of LLMs at Decoding-time"
+  url: "https://arxiv.org/abs/2511.01891"
+  authors: "Rongxin Chen, Yunfan Li, Yige Yuan, Bingbing Xu, Huawei Shen"
+  venue: "WSDM 2026"
+  year: 2026
+  image: "/resources/mpg-pic.png"
+  details:
+    - "ACM International Conference on Web Search and Data Mining (WSDM 2026)"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2511.01891"
+
+- title: "Incentivizing Strong Reasoning from Weak Supervision"
+  url: "https://arxiv.org/abs/2505.20072"
+  authors: "Yige Yuan*, Teng Xiao*, Shuchang Tao, Xue Wang, Jinyang Gao, Bolin Ding, Bingbing Xu"
+  venue: "EACL 2026"
+  award: "Oral"
+  year: 2026
+  image: "/resources/w2sr-pic.png"
+  selected: true
+  summary: "We study the problem of incentivizing reasoning of LLMs from weak supervision, and find that weak reasoner teachers—4.7× smaller and 31.5% less performant than the student—can boost student reasoning by 56.25% without expert supervision or costly RL."
+  details:
+    - "Conference of the European Chapter of the Association for Computational Linguistics (EACL 2026)"
+    - "Rabat, Morocco"
+    - "Main Track, Oral"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2505.20072"
+    - name: "Code"
+      url: "https://github.com/yuanyige/w2sr"
+
+- title: "Inference-time Alignment in Continuous Space"
+  url: "https://arxiv.org/abs/2505.20081"
+  authors: "Yige Yuan*, Teng Xiao*, Yunfan Li, Bingbing Xu, Shuchang Tao, Yunqi Qiu, Huawei Shen, Xueqi Cheng"
+  venue: "NeurIPS 2025"
+  year: 2025
+  image: "/resources/sea-pic.png"
+  selected: true
+  summary: "We propose SEA, a simple inference-time alignment method that reformulates alignment as an iterative optimization procedure on an energy function over logits in the continuous space defined by the optimal RLHF policy for deep and effective alignment."
+  details:
+    - "Annual Conference on Neural Information Processing Systems (NeurIPS 2025)"
+    - "San Diego, California, USA"
+    - "Main Track, CCF-A"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2505.20081"
+    - name: "Code"
+      url: "https://github.com/yuanyige/sea"
+
+- title: "From Outcomes to Processes: Guiding PRM Learning from ORM for Inference-Time Alignment"
+  url: "https://aclanthology.org/2025.acl-long.946/"
+  authors: "Bin Xie, Bingbing Xu, Yige Yuan, Shengmao Zhu, Huawei Shen"
+  venue: "ACL 2025"
+  year: 2025
+  image: "/resources/sprm-pic.png"
+  details:
+    - "The 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)"
+    - "Vienna, Austria"
+    - "Main Paper"
+  links:
+    - name: "Paper"
+      url: "https://aclanthology.org/2025.acl-long.946.pdf"
+    - name: "Code"
+      url: "https://github.com/xiebin23/SP-PRM"
+
+- title: "Fact-Level Calibration and Correction for Long-Form Generations"
+  url: "https://arxiv.org/abs/2411.13343"
+  authors: "Yige Yuan, Bingbing Xu, Hexiang Tan, Fei Sun, Teng Xiao, Wei Li, Huawei Shen, Xueqi Cheng"
+  venue: "SIGIR 2025"
+  year: 2025
+  image: "/resources/factcal-pic.png"
+  details:
+    - "International ACM Conference on Research and Development in Information Retrieval (SIGIR 2025)"
+    - "Padova, Italy"
+    - "Short Paper"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2411.13343"
+    - name: "Code"
+      url: "https://github.com/yuanyige/fact-calibration"
+
+- title: "InfoNCE is a Free Lunch for Semantically guided Graph Contrastive Learning"
+  url: "https://arxiv.org/abs/2505.06282"
+  authors: "Zixu Wang, Bingbing Xu, Yige Yuan, Huawei Shen, Xueqi Cheng"
+  venue: "SIGIR 2025"
+  year: 2025
+  image: "/resources/sigir2025-infonce-pic.png"
+  details:
+    - "International ACM Conference on Research and Development in Information Retrieval (SIGIR 2025)"
+    - "Padova, Italy"
+    - "Full Paper"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2505.06282"
+
+- title: "MIGE: Mutually Enhanced Multimodal Instruction-Based Image Generation and Editing"
+  url: "https://arxiv.org/abs/2502.21291"
+  authors: "Xueyun Tian, Wei Li, Bingbing Xu, Yige Yuan, Yuanzhuo Wang, Huawei Shen"
+  venue: "ACMMM 2025"
+  year: 2025
+  image: "/resources/mige-pic.png"
+  details:
+    - "ACM International Conference on Multimedia (ACMMM 2025)"
+    - "Dublin, Ireland"
+    - "Regular Paper"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2502.21291"
+
+- title: "Unveiling the Potential of LLMs in Simulated Society: A Knowledge-Driven LLM Agent Framework for User Modeling"
+  url: "https://dl.acm.org/doi/pdf/10.1145/3701716.3719232"
+  authors: "Shengmao Zhu, Bingbing Xu, Yige Yuan, Bin Xie, Yunfan Li, Huawei Shen"
+  venue: "WWW 2025"
+  year: 2025
+  image: "/resources/asc-pic.png"
+  details:
+    - "International World Wide Web Conference (WWW 2025)"
+    - "Sydney, Australia"
+    - "Companion Paper"
+  links:
+    - name: "Paper"
+      url: "https://dl.acm.org/doi/pdf/10.1145/3701716.3719232"
+
+- title: "SimPER: A Minimalist Approach to Preference Alignment without Hyperparameters"
+  url: "https://arxiv.org/abs/2502.00883"
+  authors: "Teng Xiao*, Yige Yuan*, Zhengyu Chen, Mingxiao Li, Shangsong Liang, Zhaochun Ren, Vasant G Honavar"
+  venue: "ICLR 2025"
+  year: 2025
+  image: "/resources/iclr2025-simper-pic.png"
+  selected: true
+  summary: "We propose SimPER, a simple yet effective hyperparameter-free alignment method that optimizes inverse perplexity. This lightweight objective eliminates the need for costly hyperparameter tuning and reference models, while theoretically optimizing total variation distance (TVD) and mitigating likelihood displacement issues."
+  details:
+    - "The Thirteenth International Conference on Learning Representations (ICLR 2025)"
+    - "Singapore EXPO"
+    - "Main Track"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2502.00883"
+    - name: "Code"
+      url: "https://github.com/tengxiao1/SimPER"
+    - name: "Poster"
+      url: "/resources/iclr2025-simper-poster.pdf"
+
+- title: "On a Connection Between Imitation Learning and RLHF"
+  url: "https://openreview.net/forum?id=2QdsjiNXgj"
+  authors: "Teng Xiao, Yige Yuan, Mingxiao Li, Zhengyu Chen, Vasant G Honavar"
+  venue: "ICLR 2025"
+  year: 2025
+  image: "/resources/iclr2025-dil-pic.png"
+  selected: true
+  summary: "This work reveals that RLHF is barely RL and secretly performs imitation learning (IL) and propose DIL, a principled framework that directly optimizes IL. DIL unifies existing alignment methods as special cases while enabling new variants, offering fresh insights into alignment through the lens of imitation learning."
+  details:
+    - "The Thirteenth International Conference on Learning Representations (ICLR 2025)"
+    - "Singapore EXPO"
+    - "Main Track"
+  links:
+    - name: "Paper"
+      url: "https://openreview.net/forum?id=2QdsjiNXgj"
+    - name: "Code"
+      url: "https://github.com/tengxiao1/DIL"
+    - name: "Poster"
+      url: "/resources/iclr2025-dil-poster.pdf"
+
+- title: "Cal-DPO: Calibrated Direct Preference Optimization for Language Model Alignment"
+  url: "https://arxiv.org/abs/2412.14516"
+  authors: "Teng Xiao, Yige Yuan, Huaisheng Zhu, Mingxiao Li, Vasant G Honavar"
+  venue: "NeurIPS 2024"
+  year: 2024
+  image: "/resources/neurips2024-caldpo-pic.jpg"
+  details:
+    - "Annual Conference on Neural Information Processing Systems (NeurIPS 2024)"
+    - "Vancouver, Canada"
+    - "Main Track, CCF-A"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2412.14516"
+    - name: "Code"
+      url: "https://github.com/tengxiao1/Cal-DPO"
+
+- title: "How to Leverage Demonstration Data in Alignment for Large Language Model? A Self-Imitation Learning Perspective"
+  url: "https://arxiv.org/abs/2410.10093"
+  authors: "Teng Xiao, Mingxiao Li, Yige Yuan, Huaisheng Zhu, Chao Cui, Vasant G Honavar"
+  venue: "EMNLP 2024"
+  year: 2024
+  image: "/resources/emnlp2024-gsil-pic.png"
+  details:
+    - "The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024)"
+    - "Miami, Florida, USA"
+    - "Main Paper, CCF-B"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2410.10093"
+    - name: "Code"
+      url: "https://github.com/tengxiao1/GSIL"
+
+- title: "MITA: Bridging the Gap between Model and Data for Test-time Adaptation"
+  url: "https://arxiv.org/abs/2410.09398"
+  authors: "Yige Yuan, Bingbing Xu, Teng Xiao, Liang Hou, Fei Sun, Huawei Shen, Xueqi Cheng"
+  venue: "arXiv"
+  year: 2024
+  image: "/resources/mita-pic.png"
+  details:
+    - "arXiv preprint arXiv:2410.09398"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2410.09398"
+
+- title: "Negative as Positive: Enhancing Out-of-distribution Generalization for Graph Contrastive Learning"
+  url: "https://dl.acm.org/doi/abs/10.1145/3626772.3657927"
+  authors: "Zixu Wang, Bingbing Xu, Yige Yuan, Huawei Shen and Xueqi Cheng"
+  venue: "SIGIR 2024"
+  year: 2024
+  image: "/resources/sigir2024-nap-pic.png"
+  details:
+    - "International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2024)"
+    - "Washington D.C., USA"
+    - "Short Paper, CCF-A"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2405.16224"
+
+- title: "TEA: Test-time Energy Adaptation"
+  url: "https://arxiv.org/abs/2311.14402"
+  authors: "Yige Yuan, Bingbing Xu, Liang Hou, Fei Sun, Huawei Shen, Xueqi Cheng"
+  venue: "CVPR 2024"
+  year: 2024
+  image: "/resources/cvpr2024-tea-pic.png"
+  selected: true
+  summary: "We propose to investigate generalization from an energy-based perspective and introduce TEA, a test-time adaptation method which transforms the trained classifier into an energy-based model and aligns the model's distribution with the test data's, enhancing its ability to perceive test distributions and thus improving overall generalizability."
+  details:
+    - "IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR 2024)"
+    - "Seattle WA, USA"
+    - "Main Track, CCF-A"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2311.14402"
+    - name: "Code"
+      url: "https://github.com/yuanyige/tea"
+    - name: "Slides"
+      url: "/resources/cvpr2024-tea-slides.pdf"
+    - name: "Poster"
+      url: "/resources/cvpr2024-tea-poster.pdf"
+
+- title: "PDE+: Enhancing Generalization via PDE with Adaptive Distributional Diffusion"
+  url: "https://arxiv.org/abs/2305.15835"
+  authors: "Yige Yuan, Bingbing Xu, Bo Lin, Liang Hou, Fei Sun, Huawei Shen, Xueqi Cheng"
+  venue: "AAAI 2024"
+  year: 2024
+  image: "/resources/aaai2024-pdeadd-pic.png"
+  selected: true
+  summary: "We propose to investigate generalization from PDE perspective and propose PDE-ADD framework. We introduce adaptive distributional diffusion into transport equation to enhance smoothness of its solution, thereby improving generalization directly via the underlying function of NN."
+  details:
+    - "Annual AAAI Conference on Artificial Intelligence (AAAI 2024)"
+    - "Vancouver, Canada"
+    - "Main Track, CCF-A"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2305.15835"
+    - name: "Code"
+      url: "https://github.com/yuanyige/pde-add"
+    - name: "Slides"
+      url: "/resources/aaai2024-pdeadd-slides.pdf"
+    - name: "Poster"
+      url: "/resources/aaai2024-pdeadd-poster.pdf"
+
+- title: "Towards Generalizable Graph Contrastive Learning: An Information Theory Perspective"
+  url: "https://arxiv.org/abs/2211.10929"
+  authors: "Yige Yuan, Bingbing Xu, Huawei Shen, Qi Cao, Keting Cen, Wen Zheng, Xueqi Cheng"
+  venue: "Neural Networks"
+  year: 2024
+  image: "/resources/nn-infoadv-pic.png"
+  selected: true
+  summary: "We propose a GCL generalization ability metric and prove a MI upper bound for it from an information-theoretic perspective. Guided by the bound, we design an InfoAdv framework, which can be applied to current GCL models and achieves SOTA performance."
+  details:
+    - "Neural Networks (NN), Volume 172, April 2024"
+    - "Elsevier, IF=8.4, Q1, CCF-B"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2211.10929"
+    - name: "Code"
+      url: "https://github.com/yuanyige/infoadv"
+
+- title: "Augmentation-Aware Self-Supervision for Data-Efficient GAN Training"
+  url: "https://arxiv.org/abs/2205.15677"
+  authors: "Liang Hou, Qi Cao, Yige Yuan, Songtao Zhao, Chongyang Ma, Siyuan Pan, Pengfei Wan, Zhongyuan Wang, Huawei Shen, Xueqi Cheng"
+  venue: "NeurIPS 2023"
+  year: 2023
+  image: "/resources/neurips2023-augselfgan-pic.jpg"
+  details:
+    - "Annual Conference on Neural Information Processing Systems (NeurIPS 2023)"
+    - "New Orleans, Louisiana, USA"
+    - "Main Track, CCF-A"
+  links:
+    - name: "Paper"
+      url: "https://arxiv.org/pdf/2205.15677"
+    - name: "Code"
+      url: "https://github.com/liang-hou/augself-gan"
+    - name: "Slides"
+      url: "/resources/neurips2023-augselfgan-slides.pdf"
+    - name: "Poster"
+      url: "/resources/neurips2023-augselfgan-poster.png"
+    - name: "Video"
+      url: "https://neurips.cc/virtual/2023/poster/71803"

@@ -1,33 +1,70 @@
----
-layout: compress
----
-
 <!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <body>
+{% include seo.html %}
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+<link rel="manifest" href="/images/site.webmanifest">
 
-    <div id="main" role="main">
-      {% include sidebar.html %}
-    
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        <div class="page__inner-wrap">
-          <section class="page__content" itemprop="text">
-            {{ content }}
-          </section>
-        </div>
-      </article>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap">
+<link rel="stylesheet" href="/assets/css/site.css">
+</head>
+
+<body>
+{% assign author = site.author %}
+
+<div class="wrap">
+  <header class="intro">
+    <a class="avatar-link" href="/"><img class="avatar" src="{{ author.avatar }}" alt="{{ author.name | strip }}" width="120" height="120"></a>
+    <div>
+      <h1>{{ author.name | strip }}{% if author.china_name %} <span class="zh">{{ author.china_name | remove: "(" | remove: ")" }}</span>{% endif %}</h1>
+      {% if author.bio %}<p class="role">{{ author.bio }}</p>{% endif %}
+      {% if author.email %}<p class="role">{{ author.email | replace: "@", " [AT] " }}</p>{% endif %}
+      <p class="contact">
+        {% if author.googlescholar %}<a href="{{ author.googlescholar }}" title="Google Scholar" aria-label="Google Scholar">{% include icon.html name="scholar" %}</a>{% endif %}
+        {% if author.github %}<a href="https://github.com/{{ author.github }}" title="GitHub" aria-label="GitHub">{% include icon.html name="github" %}</a>{% endif %}
+        {% if author.twitter %}<a href="https://twitter.com/{{ author.twitter | remove: '@' }}" title="Twitter" aria-label="Twitter">{% include icon.html name="twitter" %}</a>{% endif %}
+        {% if author.linkedin %}<a href="https://www.linkedin.com/in/{{ author.linkedin }}" title="LinkedIn" aria-label="LinkedIn">{% include icon.html name="linkedin" %}</a>{% endif %}
+        {% if author.cv %}<a href="{{ author.cv }}" title="CV" aria-label="CV">{% include icon.html name="cv" %}</a>{% endif %}
+      </p>
     </div>
+  </header>
+</div>
 
-    {% include scripts.html %}
+<nav class="nav" aria-label="Sections">
+  <div class="wrap">
+    <ul>
+      {% for link in site.data.navigation.main %}<li><a href="{{ link.url }}">{{ link.title }}</a></li>{% endfor %}
+    </ul>
+  </div>
+</nav>
 
-  </body>
+<main class="wrap content">
+{{ content }}
+</main>
+
+<footer class="wrap">
+  <p>&copy; <span id="year">{{ site.time | date: "%Y" }}</span> {{ author.name | strip }}</p>
+</footer>
+
+<script>
+  // Open links that leave the site (and PDFs) in a new tab.
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    var external = a.host && a.host !== location.host;
+    if (external || /\.pdf$/i.test(a.pathname)) {
+      a.target = '_blank';
+      a.rel = 'noopener';
+    }
+  });
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+{% if site.google_analytics_id %}{% include analytics.html %}{% endif %}
+</body>
 </html>
