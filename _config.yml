@@ -9,7 +9,6 @@
 title                    : "Yige Yuan (袁一歌)"
 description              : "Postdoc researcher at the University of Washington"
 repository               : "yuanyige/yuanyige.github.io"
-google_scholar_stats_use_cdn : true
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -68,7 +67,6 @@ include:
   - files
 exclude:
   - docs
-  - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -83,9 +81,6 @@ exclude:
   - LICENSE
   - README
   - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
   - config
   - gulpfile.js
   - log
@@ -128,12 +123,6 @@ defaults:
     values:
       layout: default
       author_profile: true
-
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
