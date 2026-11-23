@@ -19,10 +19,18 @@ My research aims to build trustworthy AI that acts reliably and ethically for so
 
 <div class="dated scroll" tabindex="0" markdown="1">
 
-- _2026.02_ 🎓 I graduated from the University of Chinese Academy of Sciences (UCAS) and will join the University of Washington (UW) as a postdoctoral scholar!
+- _2026.11_ 📝 New preprint: [Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization](https://arxiv.org/abs/2611.11995).
+- _2026.09_ 🥳 I will serve as an Area Chair for ICLR 2027.
+- _2026.07_ 📝 Two new preprints on agent harnesses: [Rethinking the Evaluation of Harness Evolution for Agents](https://arxiv.org/abs/2607.12227) and [Co-Harness](https://arxiv.org/abs/2607.22688).
+- _2026.07_ 🎉🎉 Our paper [Meta-Reinforcement Learning with Self-Reflection for Agentic Search](https://arxiv.org/abs/2603.11327) is accepted in COLM 2026.
+- _2026.07_ 🥳 We're excited to host "The 2nd Workshop on LLM Agents for Social Simulation" at CIKM 2026 in Rome, Italy!
+- _2026.04_ 🎉🎉 Our paper [Simple Denoising Diffusion Language Models](https://arxiv.org/abs/2510.22926) is accepted in ICML 2026.
+- _2026.02_ 🎓 I graduated from the University of Chinese Academy of Sciences (UCAS) and joined the University of Washington (UW) as a postdoctoral scholar!
 - _2026.01_ 🎉🎉 Our paper [Incentivizing Strong Reasoning from Weak Supervision](https://arxiv.org/abs/2505.20072) is accepted in EACL 2026 Oral.
+- _2025.10_ 🎉🎉 Our paper [Multi-Personality Generation of LLMs at Decoding-time](https://arxiv.org/abs/2511.01891) is accepted in WSDM 2026.
 - _2025.09_ 🎉🎉 Our paper [Inference-time Alignment in Continuous Space](https://arxiv.org/abs/2505.20081) is accepted in NeurIPS 2025.
 - _2025.09_ 🥳 I am thrilled to join the [NICE Committee](https://nice-nlp.github.io)!
+- _2025.07_ 🎉🎉 One paper is accepted in ACMMM 2025.
 - _2025.07_ 🥳 We're excited to host "The 1st Workshop on LLM Agents for Social Simulation" at CIKM 2025 in Seoul, Korea!
 - _2025.06_ 🎖 I received the President Award of the Chinese Academy of Sciences (CAS), the **highest honor** for CAS students.
 - _2025.05_ 🎉🎉 One paper is accepted in ACL 2025.
@@ -36,6 +44,8 @@ My research aims to build trustworthy AI that acts reliably and ethically for so
 - _2024.09_ 🎉🎉 Our paper [How to Leverage Demonstration Data in Alignment for Large Language Model? A Self-Imitation Learning Perspective](https://openreview.net/forum?id=QHmEtCEGFO) is accepted in EMNLP 2024.
 
 </div>
+
+{% include news-scroll.html %}
 
 ## Selected Publications {#publications}
 

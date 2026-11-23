@@ -1,0 +1,128 @@
+{% comment %}
+  News behaviour. Include right after the `.dated.scroll` block:
+
+  1. Items older than 12 months move out of the box into a collapsed
+     "earlier news" list below it (the newest five always stay in the box).
+  2. If what is left is taller than the box, it scrolls by itself in a loop.
+     It pauses under the pointer, on keyboard focus and on touch, and does not
+     start at all for visitors who ask for reduced motion.
+
+  Without JavaScript the box simply shows every item and scrolls by hand.
+{% endcomment %}
+<script>
+(function () {
+  var box = document.querySelector('.dated.scroll');
+  var list = box && box.querySelector('ul');
+  if (!list) return;
+
+  var MONTHS_KEPT = 12;   // age limit for the scrolling box
+  var ALWAYS_KEPT = 5;    // newest items stay even if the page goes stale
+  var SPEED = 16;         // pixels per second
+
+  /* ---- 1. Split off the earlier items ---- */
+
+  var now = new Date();
+  var cutoff = now.getFullYear() * 12 + now.getMonth() - MONTHS_KEPT;
+  var earlier = [];
+
+  Array.prototype.forEach.call(list.children, function (li, i) {
+    var date = li.firstElementChild ? li.firstElementChild.textContent : '';
+    var m = /^\s*(\d{4})\.(\d{1,2})/.exec(date);
+    if (m && i >= ALWAYS_KEPT && m[1] * 12 + (m[2] - 1) < cutoff) earlier.push(li);
+  });
+
+  if (earlier.length) {
+    var details = document.createElement('details');
+    var summary = document.createElement('summary');
+    var wrap = document.createElement('div');
+    var old = document.createElement('ul');
+    var label = function () {
+      summary.textContent = details.open
+        ? 'Hide earlier news'
+        : 'Show earlier news (' + earlier.length + ')';
+    };
+
+    details.className = 'earlier';
+    wrap.className = 'dated';
+    earlier.forEach(function (li) { old.appendChild(li); });
+    wrap.appendChild(old);
+    details.appendChild(summary);
+    details.appendChild(wrap);
+    details.addEventListener('toggle', label);
+    label();
+    box.parentNode.insertBefore(details, box.nextSibling);
+  }
+
+  /* ---- 2. Scroll what is left ---- */
+
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if (list.offsetHeight <= box.clientHeight) return;
+
+  // A copy of the list follows the original, so the loop has no visible seam.
+  var copy = list.cloneNode(true);
+  copy.setAttribute('aria-hidden', 'true');
+  Array.prototype.forEach.call(copy.querySelectorAll('a'), function (a) { a.tabIndex = -1; });
+  box.appendChild(copy);
+  box.classList.add('auto');
+
+  var pos = 0;
+  var last = 0;
+  var frame = 0;
+  var visible = true;
+  var holds = {};         // reasons the scroll is currently paused
+  var touchTimer = 0;
+
+  function paused() {
+    for (var k in holds) if (holds[k]) return true;
+    return !visible;
+  }
+
+  function tick(t) {
+    var span = copy.offsetTop - list.offsetTop;
+    var dt = Math.min(t - last, 50);
+    last = t;
+    pos += SPEED * dt / 1000;
+    if (pos >= span) pos -= span;
+    box.scrollTop = pos;
+    frame = requestAnimationFrame(tick);
+  }
+
+  function update() {
+    if (paused()) {
+      cancelAnimationFrame(frame);
+      frame = 0;
+    } else if (!frame) {
+      pos = box.scrollTop;   // pick up from wherever the visitor left it
+      last = performance.now();
+      frame = requestAnimationFrame(tick);
+    }
+  }
+
+  function hold(reason, on) {
+    holds[reason] = on;
+    update();
+  }
+
+  box.addEventListener('mouseenter', function () { hold('hover', true); });
+  box.addEventListener('mouseleave', function () { hold('hover', false); });
+  box.addEventListener('focusin', function () { hold('focus', true); });
+  box.addEventListener('focusout', function () { hold('focus', false); });
+  box.addEventListener('touchstart', function () {
+    clearTimeout(touchTimer);
+    hold('touch', true);
+  }, { passive: true });
+  box.addEventListener('touchend', function () {
+    clearTimeout(touchTimer);
+    touchTimer = setTimeout(function () { hold('touch', false); }, 3000);
+  });
+
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(function (entries) {
+      visible = entries[entries.length - 1].isIntersecting;
+      update();
+    }).observe(box);
+  }
+
+  update();
+})();
+</script>

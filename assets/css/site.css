@@ -321,6 +321,62 @@ b {
   outline-offset: 4px;
 }
 
+/* Self-scrolling (set by news-scroll.html): the list loops, so there is no
+   scrollbar to show a position on, and both edges always fade. */
+.dated.scroll.auto {
+  padding-right: 0;
+  scrollbar-width: none;
+  background: none;
+  -webkit-mask-image: linear-gradient(transparent, #000 22px, #000 calc(100% - 22px), transparent);
+  mask-image: linear-gradient(transparent, #000 22px, #000 calc(100% - 22px), transparent);
+}
+
+.dated.scroll.auto::-webkit-scrollbar {
+  display: none;
+}
+
+/* Items older than a year, collapsed under the box. */
+.earlier {
+  margin-top: 14px;
+}
+
+.earlier > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  color: var(--muted);
+  cursor: pointer;
+  list-style: none;
+}
+
+.earlier > summary::-webkit-details-marker {
+  display: none;
+}
+
+.earlier > summary::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: 2px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(-45deg);
+  transition: transform 0.15s;
+}
+
+.earlier[open] > summary::before {
+  transform: translateY(-2px) rotate(45deg);
+}
+
+.earlier > summary:hover {
+  color: var(--accent);
+}
+
+.earlier > .dated {
+  margin-top: 10px;
+}
+
 /* ---------- Publications: thumbnail left, text right ---------- */
 
 .pubs {
